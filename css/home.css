@@ -165,7 +165,7 @@
   .main .image-1 {
     height: 180px;
     background-image: url('../assets/images/home/img-1.jpeg');
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -236,7 +236,7 @@
     height: 180px;
 
     background-image: url('../assets/images/home/img-5.jpeg');
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 
