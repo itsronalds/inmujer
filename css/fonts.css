@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'NunitoSans ExtraBold';
+  src: url('../assets/fonts/Nunito-Sans/NunitoSans-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'DMSerifDisplay Regular';
+  src: url('../assets/fonts/DM-Serif-Display/DMSerifDisplay-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoSans Black';
+  src: url('../assets/fonts/Nunito-Sans/NunitoSans-Black.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoSans Regular';
+  src: url('../assets/fonts/Nunito-Sans/NunitoSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoSans SemiBold';
+  src: url('../assets/fonts/Nunito-Sans/NunitoSans-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'NunitoSans Bold';
+  src: url('../assets/fonts/Nunito-Sans/NunitoSans-Bold.ttf');
+}
