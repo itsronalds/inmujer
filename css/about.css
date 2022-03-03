@@ -102,19 +102,19 @@
 
 .btn-conocenos {
   background-color: #870045;
-  margin-right: 1.5rem;
+  margin-right: 1rem;
   color: #fff;
 }
 
 .btn-conocenos:hover {
   background: #fff;
-  border: 2px solid #870045;
+  border: 3px solid #870045;
   color: #870045;
 }
 
 .btn-historia {
   background: #fff;
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   border: 3px solid #e792b0;
   color: #e792b0;
 }
@@ -137,6 +137,10 @@
 
 .work-content-image img {
   width: 100%;
+}
+
+.work .paragraph strong {
+  color: #e792b0;
 }
 
 @media screen and (min-width: 768px) {

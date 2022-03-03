@@ -1,0 +1,558 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* GLOBAL CLASSES START */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.layout-container {
+  position: relative;
+  top: 4.8rem;
+}
+
+.btn {
+  width: 150px;
+  height: 45px;
+  text-decoration: none;
+
+  border-radius: 25px 5px 5px 5px;
+
+  font-family: 'NunitoSans Black';
+  font-size: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-title {
+  text-transform: lowercase;
+
+  color: #890045;
+  font-family: 'DMSerifDisplay Regular';
+  font-size: 2.5rem;
+
+  text-align: center;
+}
+
+.sub-title .endpoint {
+  color: #e792b0;
+  font-size: 3rem;
+}
+
+.paragraph {
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+
+  color: #070707;
+  font-family: 'NunitoSans Regular';
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-title {
+    text-align: start;
+    font-size: 4rem;
+  }
+
+  .sub-title .down {
+    display: block;
+  }
+
+  .sub-title .endpoint {
+    font-size: 4rem;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    width: 170px;
+  }
+}
+
+/* GLOBAL CLASSES END */
+
+/* MAIN START */
+.main {
+  position: relative;
+  top: 4.8rem;
+
+  display: flex;
+}
+
+.main img {
+  width: 100%;
+}
+
+.main-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  background: #21191588;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+.main-bg-image img {
+  max-height: 30px;
+}
+
+.main-bg h1 {
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.3rem;
+  text-transform: lowercase;
+
+  color: #fff;
+  /* font-size: 4rem; */
+  font-size: 1.2rem;
+  font-family: 'DMSerifDisplay Regular';
+}
+
+.main-bg p {
+  color: #e9c33a;
+  /* font-size: 1.5rem; */
+  font-size: 0.7rem;
+  font-family: 'NunitoSans Black';
+}
+
+@media screen and (min-width: 645px) {
+  .main-bg-image img {
+    max-height: 50px;
+  }
+
+  .main-bg h1 {
+    font-size: 2rem;
+  }
+
+  .main-bg p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-bg-image img {
+    max-height: 60px;
+  }
+
+  .main-bg h1 {
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+  }
+
+  .main-bg p {
+    font-size: 1.5rem;
+  }
+}
+
+/* MAIN END */
+
+/* NAV SECTION START */
+.nav-section {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-conocenos {
+  background: #fff;
+  margin-right: 1rem;
+  border: 3px solid #e792b0;
+  color: #e792b0;
+}
+
+.btn-conocenos:hover {
+  background: #e792b0;
+  color: #fff;
+}
+
+.btn-historia {
+  background-color: #870045;
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.btn-historia:hover {
+  background: #fff;
+  border: 3px solid #870045;
+  color: #870045;
+}
+
+/* NAV SECTION END */
+
+.history .container {
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.history strong {
+  color: #e792b0;
+}
+
+@media screen and (min-width: 768px) {
+  .history-content-text {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 2rem;
+  }
+
+  .history-content-text p:nth-child(2) {
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .history-content-text p:nth-child(2) {
+    padding-right: 0;
+  }
+}
+
+/* HISTORY END */
+
+/* HISTORY BG START */
+.history-bg {
+  background-color: #e9c33a;
+
+  position: relative;
+  display: flex;
+}
+
+.history-bg img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.history-bg-figure-1,
+.history-bg-figure-2 {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .history-bg-figure-1 {
+    display: block;
+
+    position: absolute;
+    right: 8rem;
+    top: -75px;
+  }
+
+  .history-bg-figure-2 {
+    display: block;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    background-color: #870045;
+    width: 150px;
+    height: 140px;
+
+    border-radius: 20px 80px 20px 20px;
+  }
+
+  .history-bg-figure-1 img {
+    max-height: 150px;
+  }
+}
+
+/* HISTORY BG END */
+
+/* LAW START */
+.law-content-text {
+  background: #fde7ef;
+  padding: 4rem 2rem 2rem 2rem;
+}
+
+.law-content-text p {
+  margin: 0 auto 1.5rem auto;
+}
+
+.law-content-text strong {
+  color: #e792b0;
+}
+
+.law-content-image-container {
+  padding: 3rem 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.law-content-image {
+  background-color: #fff;
+  padding: 1rem;
+
+  width: 320px;
+  height: 340px;
+
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  display: flex;
+}
+
+.law-content-image img {
+  width: 100%;
+}
+
+.law-content-image-figure-1,
+.law-content-image-figure-2 {
+  display: none;
+}
+
+@media screen and (min-width: 765px) {
+  .law {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .law-content-image-container {
+    padding: auto;
+  }
+
+  .law-content-image {
+    width: 380px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .law-content-image-container,
+  .law-content-image {
+    position: relative;
+  }
+
+  .law-content-image-figure-1 {
+    display: block;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    width: 300px;
+    height: 110px;
+
+    background: #e9c33a;
+    border-radius: 50px 20px 50px 50px;
+    z-index: -1;
+  }
+
+  .law-content-image-figure-2 {
+    display: block;
+
+    position: absolute;
+    bottom: -3rem;
+    right: 3rem;
+  }
+
+  .law-content-image-figure-2 img {
+    max-height: 80px;
+    transform: rotate(180deg);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .law-content-text .paragraph {
+    padding-left: 19%;
+  }
+}
+
+/* LAW END */
+
+/* EQUALITY */
+.equality-content-text {
+  background: #890045;
+  padding: 2rem;
+}
+
+.equality p {
+  color: #fff;
+}
+
+.equality-content-image-container {
+  position: relative;
+  padding: 3rem 3rem 6rem 3rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.equality-content-image {
+  position: relative;
+
+  background-color: #fff;
+  padding: 1rem;
+
+  width: 320px;
+  height: 340px;
+
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  display: flex;
+}
+
+.equality-content-image img {
+  width: 100%;
+}
+
+.equality-sello {
+  position: absolute;
+  bottom: -60px;
+  right: -2rem;
+}
+
+.equality-sello img {
+  max-height: 120px;
+}
+
+.equality-tag {
+  display: none;
+}
+
+@media screen and (min-width: 765px) {
+  .equality {
+    padding-bottom: 5rem;
+
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .equality-content-image-container {
+    padding: 0;
+    width: 40%;
+
+    justify-content: flex-end;
+  }
+
+  .equality-content-image {
+    top: -1.5rem;
+  }
+
+  .equality-content-image {
+    width: 400px;
+    height: 450px;
+  }
+
+  .equality-content-text {
+    width: 60%;
+    max-height: 405px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .equality-tag {
+    background-color: #e792b0;
+    width: 50%;
+    padding-right: 0.3rem;
+
+    display: block;
+
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+
+    z-index: 1000;
+
+    color: #870045;
+
+    font-size: 2rem;
+    font-family: 'DMSerifDisplay Regular';
+
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .equality-content-text {
+    padding: 0;
+  }
+
+  .equality-content-text p {
+    padding: 0 10rem;
+  }
+}
+
+/* EQUALITY END */
+
+/* PLANNING START */
+.planning {
+  position: relative;
+}
+
+.planning .container {
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.planning strong {
+  color: #e792b0;
+}
+
+.planning-figures {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .planning .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .planning p {
+    padding-right: 1rem;
+  }
+
+  .planning-figures {
+    display: block;
+
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+  }
+
+  .planning-figures div {
+    background-color: #e9c33a;
+    width: 280px;
+    height: 130px;
+
+    border-radius: 80px 80px 20px 80px;
+  }
+
+  .planning-figures img {
+    position: relative;
+    bottom: -5rem;
+    right: 2rem;
+
+    max-height: 120px;
+    transform: rotate(270deg);
+  }
+}
+
+/* PLANNING END */
+
+/* PINK BAR */
+.pink-container {
+  background: #e792b0;
+  height: 35px;
+}
