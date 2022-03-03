@@ -76,7 +76,7 @@
 
   .footer ul {
     grid-template-columns: auto auto auto auto auto auto;
-    gap: 0.8rem;
+    gap: 1rem;
   }
 
   .footer-social-networks {
@@ -96,6 +96,6 @@
 @media screen and (min-width: 1024px) {
   .footer ul {
     grid-template-columns: auto auto auto auto auto auto;
-    gap: 2rem;
+    gap: 0;
   }
 }

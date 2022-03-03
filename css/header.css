@@ -1,7 +1,17 @@
 .header {
+  position: absolute;
+  width: 100%;
+
   background: #8a0045;
+  /* border-radius: 0 0 30px 30px; */
 
   font-family: 'NunitoSans ExtraBold';
+
+  z-index: 1000;
+}
+
+.header.border-radius {
+  border-radius: 0 0 30px 30px;
 }
 
 .header .container {
@@ -16,7 +26,7 @@
 
 .header img {
   object-fit: cover;
-  max-height: 5rem;
+  max-height: 4rem;
 }
 
 .header nav {
@@ -96,7 +106,7 @@
   .header nav {
     position: absolute;
     left: 0;
-    top: 6.375rem;
+    top: 6.3rem;
 
     background: #8a0045;
     width: 100%;
