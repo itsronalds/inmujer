@@ -133,9 +133,15 @@
   }
 
   .header nav.open {
-    height: calc(100vh - 6.375rem);
+    height: calc(100vh - 101px);
     opacity: 1;
     pointer-events: all;
+
+    overflow-y: auto;
+  }
+
+  .header nav::-webkit-scrollbar {
+    display: none;
   }
 
   .header .burger-icon {

@@ -1,0 +1,357 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* GLOBAL CLASSES START */
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.layout {
+  position: relative;
+  top: 4.5rem;
+}
+
+.sub-title {
+  text-transform: lowercase;
+
+  color: #890045;
+  font-family: 'DMSerifDisplay Regular';
+  font-size: 2.5rem;
+
+  text-align: center;
+}
+
+.sub-title .endpoint {
+  color: #e792b0;
+  font-size: 3rem;
+}
+
+.paragraph {
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+
+  color: #070707;
+  font-family: 'NunitoSans Regular';
+  font-size: 1rem;
+}
+
+.strong-pink {
+  color: #e792b0;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-title {
+    text-align: start;
+    font-size: 4rem;
+  }
+
+  .sub-title .down {
+    display: block;
+  }
+
+  .sub-title .endpoint {
+    font-size: 4rem;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+}
+
+/* GLOBAL CLASSES END */
+
+/* MAIN START */
+.main {
+  position: relative;
+  display: flex;
+}
+
+.main img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.main-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  background: #21191588;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-bg p {
+  font-family: 'NunitoSans Black';
+  font-size: 0.7rem;
+  color: #e9c33a;
+  margin-bottom: 1rem;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.main-grid div:nth-child(2) {
+  text-align: start;
+}
+
+.main-bg h2 {
+  letter-spacing: 0.3rem;
+  text-transform: lowercase;
+
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'DMSerifDisplay Regular';
+}
+
+@media screen and (min-width: 645px) {
+  .main-bg h2 {
+    font-size: 2rem;
+  }
+
+  .main-bg p {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-bg h2 {
+    letter-spacing: 0.5rem;
+    font-size: 4rem;
+  }
+
+  .main-bg p {
+    font-size: 1.5rem;
+  }
+}
+
+/* MAIN END */
+
+/* BIRTH */
+.birth .container {
+  padding: 2rem;
+}
+
+.birth-image {
+  text-align: center;
+}
+
+.birth img {
+  max-height: 200px;
+}
+
+@media screen and (min-width: 765px) {
+  .birth .container {
+    padding: 2rem 2rem 4rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid: 2rem;
+  }
+
+  .birth-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .birth img {
+    max-height: 250px;
+  }
+}
+
+/* BIRTH END */
+
+/* ASSISTANCE START */
+.assistance {
+  position: relative;
+
+  background: #8a0045;
+  border-radius: 0 120px 0 0;
+  text-align: center;
+}
+
+.assistance .container {
+  padding: 4rem;
+}
+
+.assistance p {
+  color: #fff;
+}
+
+.assistance-figures {
+  display: none;
+}
+
+@media screen and (min-width: 760px) {
+  .assistance .container {
+    padding: 4rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .assistance .container {
+    padding: 4rem 15rem;
+  }
+
+  .assistance-figures {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000;
+  }
+
+  .assistance-figures div {
+    background: #e792b0;
+    width: 110px;
+    height: 250px;
+    border-radius: 20px 80px 80px 80px;
+
+    position: relative;
+    bottom: -1rem;
+  }
+
+  .assistance-figures img {
+    max-height: 80px;
+    transform: rotate(-90deg);
+  }
+}
+
+/* ASSISTANCE END */
+
+.pregnancy {
+  position: relative;
+  display: flex;
+}
+
+.pregnancy img {
+  width: 100%;
+}
+
+.pregnancy-figure {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .pregnancy-figure {
+    display: block;
+    position: absolute;
+    right: 8rem;
+    top: -4.6875rem;
+  }
+
+  .pregnancy-figure img {
+    max-height: 150px;
+  }
+}
+
+/* PREGNANCY END */
+
+/* PROMOTERS START */
+.promoters-content {
+  padding: 2rem;
+}
+
+.promoters-image {
+  display: flex;
+}
+
+.promoters-image img {
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .promoters {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .promoters-content {
+    padding-left: 15%;
+  }
+}
+
+/* PROMOTERS END */
+.gestation {
+  background: #fde7ef;
+}
+
+/* GESTATION START */
+.gestation .container {
+  padding: 2rem;
+}
+
+.gestation-image {
+  text-align: center;
+}
+
+.gestation-image img {
+  max-height: 200px;
+}
+
+@media screen and (min-width: 765px) {
+  .gestation .container {
+    padding: 2rem 2rem 4rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid: 2rem;
+  }
+
+  .gestation-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .gestation-image img {
+    max-height: 250px;
+  }
+}
+
+/* GESTATION END */
+
+/* TARGET */
+
+.target {
+  background: #e792b0;
+  text-align: center;
+}
+
+.target .container {
+  padding: 4rem 4rem 5rem 4rem;
+}
+
+.target p {
+  color: #fff;
+}
+
+@media screen and (min-width: 760px) {
+  .target .container {
+    padding: 4rem 10rem 5rem 10rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .target .container {
+    padding: 4rem 15rem 5rem 15rem;
+  }
+}
