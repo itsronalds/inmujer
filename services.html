@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios</title>
+    <link rel="shortcut icon" href="./assets/Logo-del-instituto.ico" type="image/x-icon" />
+
+    <!-- FONTS LINKS -->
+    <link rel="stylesheet" href="./css/fonts.css" />
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="./css/services.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- FONTAWESOME CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header border-radius">
+      <!-- CONTAINER LAYOUT -->
+      <div class="container">
+        <!-- LOGO -->
+        <div>
+          <a href="./index.html"><img src="./assets/images/Logo del instituto.png" alt="Logo" /></a>
+        </div>
+
+        <!-- NAVBAR -->
+        <nav>
+          <li><a href="./about.html">Nosotras</a></li>
+          <li><a href="./projects.html">Proyectos</a></li>
+          <li><a class="active" href="./services.html">Servicios</a></li>
+          <li><a href="#">Galería</a></li>
+          <li><a href="#">Violencia</a></li>
+          <li><a href="#">Contáctanos</a></li>
+
+          <div class="search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text" placeholder="Buscar..." />
+          </div>
+        </nav>
+
+        <!-- MOBILE BURGER ICON -->
+        <div class="burger-icon" onclick="mobileNavHandler()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Layout -->
+    <div class="layout">
+      <!-- MAIN -->
+      <main class="main">
+        <!-- FIGURES -->
+        <div class="main-figures">
+          <div class="main-figure-1"></div>
+
+          <div class="main-figure-2">
+            <img src="./assets/images/home/figuras/Recursos-Web-Iaaanmujer.png" alt="" />
+          </div>
+        </div>
+
+        <img src="./assets/images/services/Atención psicológica 1.jpeg" alt="" />
+      </main>
+
+      <!-- CONSULTANCIES -->
+      <section class="consultancies">
+        <div class="consultancies-tags">
+          <div class="consultancies-tag-1">denuncia,</div>
+          <div class="consultancies-tag-2">no te calles.</div>
+        </div>
+        <div class="container">
+          <div class="consultancies-cards">
+            <div class="cards-container">
+              <div class="consultancies-card-1">
+                <img src="./assets/images/services/f3.jpeg" alt="" />
+              </div>
+
+              <div class="consultancies-card-2">
+                <img src="./assets/images/services/12459.600x400.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="consultancies-content">
+            <h2 class="sub-title">
+              Asesorias <span class="down">jurídicas y </span
+              ><span class="down">psicológicas <span class="endpoint">.</span></span>
+            </h2>
+
+            <div class="consultancies-subtitle">
+              <span>para mujeres víctimas de violencia</span>
+            </div>
+
+            <p class="paragraph">
+              En nuestro entorno laboral, familiar y social se presentan injustamente hechos de
+              violencia basados en tu condición de mujer que te causan daño o sufrimiento físico,
+              psicológico, económico o sexual.<br /><br />
+
+              En nuestra organización contamos con un servicio de asesoría jurídica con enfoque de
+              género para apoyar a mujeres a las que les han sido vulnerados sus derechos sexuales,
+              reproductivos, económicos y que viven violencias de género entre otras
+              problemáticas.<br /><br />
+
+              De igual forma la institución tiene espacios de orientación y ayuda psicológica que
+              buscan mejorar la calidad de vida de las mujeres.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- VIOLENCE -->
+      <section class="violence">
+        <div class="container">
+          <div>
+            <p class="paragraph">
+              <strong class="strong-pink"
+                >La violencia intrafamiliar es todo maltrato que afecte la vida o la integridad
+                física o psíquica de quien tenga o haya tenido la calidad de cónyuge o una relación
+                de convivencia con la persona que ejerce la violencia;</strong
+              >
+              o que sea pariente por consanguinidad o por afinidad en hasta el tercer grado del
+              ofensor, su cónyuge o de su actual conviviente.
+            </p>
+          </div>
+
+          <div>
+            <p class="paragraph">
+              También se considera violencia intrafamiliar cuando la conducta indicada ocurre entre
+              los padres de un hijo común, o recaiga sobre una persona menor de edad o en situación
+              de discapacidad que se encuentre bajo el cuidado o dependencia de cualquiera de los
+              integrantes del grupo familiar.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES BG -->
+      <section class="services-bg">
+        <div class="services-bg-image">
+          <!-- FIGURE -->
+          <div class="services-bg-figure">
+            <img src="./assets/images/history/Sello 2.png" alt="" />
+          </div>
+          <div class="services-bg-figure-2">
+            <img src="./assets/images/home/figuras/Elemento home 2.png" alt="" />
+          </div>
+
+          <img class="violence-img" src="./assets/images/services/violencia-3.jpeg" alt="" />
+        </div>
+
+        <div class="services-bg-filling"></div>
+      </section>
+
+      <div style="position: relative; top: -5rem">
+        <!-- SERVICES FORM -->
+        <section class="services-form">
+          <div class="container">
+            <div class="services-form-content">
+              <h1 class="sub-title">
+                ¿has sido <span class="down">Víctima de </span
+                ><span class="down">abuso? <span class="endpoint">.</span></span>
+              </h1>
+
+              <p class="paragraph">
+                Si has sido victima de un hecho que vulnera tus derechos y deseas acompañamiento,
+                puedes acercarte a nuestra sede en el centro comercial La Fuente, primer piso,
+                Cabimas, Edo Zulia, Venezuela.<br /><br />
+
+                Además, puedes comunicarte al
+                <strong style="color: #a90045">+58 414 567 8658 </strong>
+                y en caso de que no logres conectarte, déjanos tus datos y te contactaremos.
+              </p>
+            </div>
+
+            <div class="services-form-container">
+              <div class="form-group">
+                <label for="">Nombre y apellido</label>
+
+                <input type="text" placeholder="Ingresa el nombre y apellido..." />
+              </div>
+
+              <div class="form-group">
+                <label for="">Email</label>
+
+                <input type="email" placeholder="Ingresa el email..." />
+              </div>
+
+              <div class="form-group">
+                <label for="">Número de teléfono</label>
+
+                <input type="text" placeholder="Ingresa un número de teléfono..." />
+              </div>
+
+              <div class="form-group">
+                <label for="">Parroquia donde vives</label>
+
+                <input type="text" placeholder="Ingresa la parroquia donde vives..." />
+              </div>
+
+              <div class="form-group">
+                <label for="">Explícanos tu situación</label>
+
+                <textarea placeholder="Explícanos tu situación..." id="" rows="8"></textarea>
+              </div>
+
+              <div>
+                <a class="btn">Enviar</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- YELLO BAR -->
+      <div class="yellow-container"></div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content-container">
+            <div class="footer-logo">
+              <a href="./index.html"
+                ><img class="logo" src="./assets/images/Logo del instituto.png" alt=""
+              /></a>
+            </div>
+
+            <div class="footer-content">
+              <!-- NAV -->
+              <div>
+                <ul>
+                  <li><a href="">Nosotras</a></li>
+                  <li><a href="">Proyectos</a></li>
+                  <li><a href="">Servicios</a></li>
+                  <li><a href="">Galería</a></li>
+                  <li><a href="">Violencia</a></li>
+                  <li><a href="">Contáctanos</a></li>
+                </ul>
+              </div>
+
+              <!-- SOCIAL NETWORKS -->
+              <div class="footer-social-networks">
+                <div class="networks-container">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-youtube"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-derechos">
+            <p>INMUJER © 2022</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
