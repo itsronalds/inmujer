@@ -171,7 +171,7 @@
 
 @media screen and (min-width: 1024px) {
   .birth img {
-    max-height: 250px;
+    max-height: 280px;
   }
 }
 
@@ -323,14 +323,13 @@
 
 @media screen and (min-width: 1024px) {
   .gestation-image img {
-    max-height: 250px;
+    max-height: 300px;
   }
 }
 
 /* GESTATION END */
 
-/* TARGET */
-
+/* TARGET START */
 .target {
   background: #e792b0;
   text-align: center;
