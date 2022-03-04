@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería | Fotos</title>
+    <link rel="shortcut icon" href="./assets/Logo-del-instituto.ico" type="image/x-icon" />
+
+    <!-- FONTS LINKS -->
+    <link rel="stylesheet" href="./css/fonts.css" />
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="./css/gallery-photos.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- FONTAWESOME CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header border-radius">
+      <!-- CONTAINER LAYOUT -->
+      <div class="container">
+        <!-- LOGO -->
+        <div>
+          <a href="./index.html"><img src="./assets/images/Logo del instituto.png" alt="Logo" /></a>
+        </div>
+
+        <!-- NAVBAR -->
+        <nav>
+          <li><a href="./about.html">Nosotras</a></li>
+          <li><a href="./projects.html">Proyectos</a></li>
+          <li><a href="./services.html">Servicios</a></li>
+          <li><a class="active" href="./gallery-photos.html">Galería</a></li>
+          <li><a href="#">Violencia</a></li>
+          <li><a href="#">Contáctanos</a></li>
+
+          <div class="search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text" placeholder="Buscar..." />
+          </div>
+        </nav>
+
+        <!-- MOBILE BURGER ICON -->
+        <div class="burger-icon" onclick="mobileNavHandler()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- Layout -->
+    <div class="layout">
+      <!-- MAIN -->
+      <main class="main">
+        <div class="container">
+          <!-- TEXT -->
+          <div class="main-content">
+            <div class="main-content-image">
+              <img src="./assets/images/gallery/Corazón galeria.png" alt="" />
+            </div>
+
+            <span>¡VAMOS MUJER!</span>
+
+            <h1>
+              juntas somos<br />
+              más fuertes
+            </h1>
+
+            <p class="paragraph">
+              Velamos por el cumplimiento de los derechos de las mujeres, creando planes y programas
+              que atiendan sus necesidades, promoviendo su participación a través del
+              fortalecimiento y articulación de estado, familia y sociedad, para que alcancen un
+              desarrollo humano pleno y poder elevar la dignidad, el respeto y el buen trato, dando
+              mayor atención y respuesta oportuna a la solución de problemas que sean denunciados en
+              nuestra organización.
+            </p>
+          </div>
+
+          <!-- MAIN IMAGE FIGURE -->
+          <div class="main-image-figure">
+            <img src="./assets/images/history/Sello 1.png" alt="" />
+          </div>
+
+          <!-- IMAGE -->
+          <div class="main-image">
+            <img src="./assets/images/gallery/15-scaled.jpeg" alt="" />
+          </div>
+        </div>
+      </main>
+
+      <!-- NAV SECTION -->
+      <section class="nav-section">
+        <a class="btn btn-conocenos" href="./gallery-photos.html">Fotos</a>
+
+        <a class="btn btn-historia" href="./gallery-videos.html">Videos</a>
+      </section>
+
+      <!-- BIG CARD -->
+      <div class="big-card-container">
+        <div class="container">
+          <!-- CARD -->
+          <div class="big-card">
+            <div class="big-card-image">
+              <img src="./assets/images/gallery/image1440x560cropped.jpeg" alt="" />
+            </div>
+
+            <div class="big-card-content">
+              <hr />
+
+              <br />
+
+              <p class="big-card-date">Agosto 15, 2020</p>
+              <br />
+
+              <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+              <p class="big-card-place">CABIMAS - ZULIA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARDS -->
+      <section class="cards">
+        <div class="container"></div>
+      </section>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
