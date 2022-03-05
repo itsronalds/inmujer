@@ -7,6 +7,9 @@
     <title>Galería | Fotos</title>
     <link rel="shortcut icon" href="./assets/Logo-del-instituto.ico" type="image/x-icon" />
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
     <!-- FONTS LINKS -->
     <link rel="stylesheet" href="./css/fonts.css" />
 
@@ -106,11 +109,208 @@
 
       <!-- BIG CARD -->
       <div class="big-card-container">
-        <div class="container">
-          <!-- CARD -->
-          <div class="big-card">
+        <!-- FAKE -->
+        <div class="container mobile">
+          <div class="swiper mySwiper_2" style="border-radius: 120px 0 0 0">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="big-card">
+                  <div class="big-card-image">
+                    <img src="./assets/images/gallery/image1440x560cropped.jpeg" alt="" />
+                  </div>
+
+                  <div class="big-card-content">
+                    <hr />
+
+                    <br />
+
+                    <p class="big-card-date">Agosto 15, 2020</p>
+                    <br />
+
+                    <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+                    <p class="big-card-place">CABIMAS - ZULIA</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="big-card">
+                  <div class="big-card-image">
+                    <img src="./assets/images/gallery/f3.jpeg" alt="" />
+                  </div>
+
+                  <div class="big-card-content">
+                    <hr />
+
+                    <br />
+
+                    <p class="big-card-date">Agosto 15, 2020</p>
+                    <br />
+
+                    <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+                    <p class="big-card-place">CABIMAS - ZULIA</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="big-card">
+                  <div class="big-card-image">
+                    <img
+                      src="./assets/images/gallery/Embajadora-Faria-constató-situación-de-6-familias-venezolanas-que-llegaron-a-Costa-Rica-en-condiciones-de-vulnerabilidad-2.jpeg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="big-card-content">
+                    <hr />
+
+                    <br />
+
+                    <p class="big-card-date">Agosto 15, 2020</p>
+                    <br />
+
+                    <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+                    <p class="big-card-place">CABIMAS - ZULIA</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="big-card">
+                  <div class="big-card-image">
+                    <img src="./assets/images/gallery/12459.600x400.jpg" alt="" />
+                  </div>
+
+                  <div class="big-card-content">
+                    <hr />
+
+                    <br />
+
+                    <p class="big-card-date">Agosto 15, 2020</p>
+                    <br />
+
+                    <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+                    <p class="big-card-place">CABIMAS - ZULIA</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="big-card">
+                  <div class="big-card-image">
+                    <img
+                      src="./assets/images/gallery/alnavio.es_fotos_1_12156_AH-INTERIOR-EMPRESARIAS-INCASA-AH.jpg"
+                      alt=""
+                    />
+                  </div>
+
+                  <div class="big-card-content">
+                    <hr />
+
+                    <br />
+
+                    <p class="big-card-date">Agosto 15, 2020</p>
+                    <br />
+
+                    <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+                    <p class="big-card-place">CABIMAS - ZULIA</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next swiper-button-next-2"></div>
+          <div class="swiper-button-prev swiper-button-prev-2"></div> -->
+        </div>
+
+        <div class="container no-mobile">
+          <!-- CARD 1 -->
+          <div class="big-card number-1 big-card-active">
             <div class="big-card-image">
               <img src="./assets/images/gallery/image1440x560cropped.jpeg" alt="" />
+            </div>
+
+            <div class="big-card-content">
+              <hr />
+
+              <br />
+
+              <p class="big-card-date">Agosto 15, 2020</p>
+              <br />
+
+              <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+              <p class="big-card-place">CABIMAS - ZULIA</p>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+          <div class="big-card number-2 unselected">
+            <div class="big-card-image">
+              <img src="./assets/images/gallery/f3.jpeg" alt="" />
+            </div>
+
+            <div class="big-card-content">
+              <hr />
+
+              <br />
+
+              <p class="big-card-date">Agosto 15, 2020</p>
+              <br />
+
+              <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+              <p class="big-card-place">CABIMAS - ZULIA</p>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+          <div class="big-card number-3 unselected">
+            <div class="big-card-image">
+              <img
+                src="./assets/images/gallery/Embajadora-Faria-constató-situación-de-6-familias-venezolanas-que-llegaron-a-Costa-Rica-en-condiciones-de-vulnerabilidad-2.jpeg"
+                alt=""
+              />
+            </div>
+
+            <div class="big-card-content">
+              <hr />
+
+              <br />
+
+              <p class="big-card-date">Agosto 15, 2020</p>
+              <br />
+
+              <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+              <p class="big-card-place">CABIMAS - ZULIA</p>
+            </div>
+          </div>
+
+          <!-- CARD 4 -->
+          <div class="big-card number-4 unselected">
+            <div class="big-card-image">
+              <img src="./assets/images/gallery/12459.600x400.jpg" alt="" />
+            </div>
+
+            <div class="big-card-content">
+              <hr />
+
+              <br />
+
+              <p class="big-card-date">Agosto 15, 2020</p>
+              <br />
+
+              <p class="big-card-place">ENCUENTRO DE MUJERES POR LA PAZ</p>
+              <p class="big-card-place">CABIMAS - ZULIA</p>
+            </div>
+          </div>
+
+          <!-- CARD 5 -->
+          <div class="big-card number-5 unselected">
+            <div class="big-card-image">
+              <img
+                src="./assets/images/gallery/alnavio.es_fotos_1_12156_AH-INTERIOR-EMPRESARIAS-INCASA-AH.jpg"
+                alt=""
+              />
             </div>
 
             <div class="big-card-content">
@@ -130,9 +330,150 @@
 
       <!-- CARDS -->
       <section class="cards">
-        <div class="container"></div>
+        <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card card-active" onclick="selectedCard(1)">
+                  <img src="./assets/images/gallery/image1440x560cropped.jpeg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" onclick="selectedCard(2)">
+                  <img src="./assets/images/gallery/f3.jpeg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" onclick="selectedCard(3)">
+                  <img
+                    src="./assets/images/gallery/Embajadora-Faria-constató-situación-de-6-familias-venezolanas-que-llegaron-a-Costa-Rica-en-condiciones-de-vulnerabilidad-2.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" onclick="selectedCard(4)">
+                  <img src="./assets/images/gallery/12459.600x400.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card" onclick="selectedCard(5)">
+                  <img
+                    src="./assets/images/gallery/alnavio.es_fotos_1_12156_AH-INTERIOR-EMPRESARIAS-INCASA-AH.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next" onclick="next()"></div>
+          <div class="swiper-button-prev" onclick="prev()"></div>
+        </div>
       </section>
+
+      <!-- VALUES  -->
+      <section class="values">
+        <div class="container">
+          <!-- IMAGE -->
+          <div class="values-image">
+            <img src="./assets/images/gallery/Galería.png" alt="" />
+          </div>
+
+          <!-- CONTENT -->
+          <div class="values-content">
+            <h3>Igualdad</h3>
+
+            <h3>Equidad</h3>
+
+            <h3>Sororidad</h3>
+
+            <h3>Justicia</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- YELLO BAR -->
+      <div class="yellow-container"></div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content-container">
+            <div class="footer-logo">
+              <a href="./index.html"
+                ><img class="logo" src="./assets/images/Logo del instituto.png" alt=""
+              /></a>
+            </div>
+
+            <div class="footer-content">
+              <!-- NAV -->
+              <div>
+                <ul>
+                  <li><a href="">Nosotras</a></li>
+                  <li><a href="">Proyectos</a></li>
+                  <li><a href="">Servicios</a></li>
+                  <li><a href="">Galería</a></li>
+                  <li><a href="">Violencia</a></li>
+                  <li><a href="">Contáctanos</a></li>
+                </ul>
+              </div>
+
+              <!-- SOCIAL NETWORKS -->
+              <div class="footer-social-networks">
+                <div class="networks-container">
+                  <a style="text-decoration: none" href="https://www.facebook.com/immujer1">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+
+                  <a
+                    style="text-decoration: none"
+                    href="https://www.youtube.com/channel/UCGyzd1RYzJ5uV1EJ69MFRpQ/videos"
+                  >
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-derechos">
+            <p>INMUJER © 2022</p>
+          </div>
+        </div>
+      </footer>
     </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+
+      var swiper_2 = new Swiper('.mySwiper_2', {
+        slidesPerView: 1,
+        navigation: {
+          nextEl: '.swiper-button-next-2',
+          prevEl: '.swiper-button-prev-2',
+        },
+      });
+    </script>
 
     <script src="./js/main.js"></script>
   </body>
