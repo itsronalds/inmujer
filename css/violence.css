@@ -1,0 +1,442 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* GLOBAL CLASSES START */
+.container {
+  margin: 0 auto;
+  /* max-width: 1280px; */
+  max-width: 1380px;
+}
+
+.layout {
+  position: relative;
+  top: 4.5rem;
+}
+
+.btn {
+  width: 150px;
+  height: 45px;
+  text-decoration: none;
+
+  border-radius: 25px 5px 5px 5px;
+
+  font-family: 'NunitoSans Black';
+  font-size: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-title {
+  text-transform: lowercase;
+
+  color: #890045;
+  font-family: 'DMSerifDisplay Regular';
+  font-size: 2.5rem;
+
+  text-align: center;
+}
+
+.sub-title .endpoint {
+  color: #e792b0;
+  font-size: 3rem;
+}
+
+.paragraph {
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+
+  color: #070707;
+  font-family: 'NunitoSans Regular';
+  font-size: 0.9rem;
+}
+
+.strong-pink {
+  color: #e792b0;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-title {
+    text-align: start;
+    font-size: 4rem;
+  }
+
+  .sub-title .down {
+    display: block;
+  }
+
+  .sub-title .endpoint {
+    font-size: 4rem;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    width: 170px;
+  }
+}
+
+/* GLOBAL CLASSES END */
+.main {
+  position: relative;
+}
+
+.main-image {
+  min-height: 250px;
+  display: flex;
+}
+
+.main-image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.main-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+
+  background: #21191588;
+  /* padding: 2rem; */
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-background div {
+  text-align: start;
+}
+
+.main-background img {
+  max-height: 20px;
+}
+
+.main h1 {
+  margin: 0.5rem 0;
+  letter-spacing: 0.1rem;
+  text-transform: lowercase;
+
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: 'DMSerifDisplay Regular';
+}
+
+.main span {
+  color: #e9c33a;
+  font-size: 0.7rem;
+  font-family: 'NunitoSans Black';
+}
+
+@media screen and (min-width: 645px) {
+  .main-background img {
+    max-height: 40px;
+  }
+
+  .main h1 {
+    letter-spacing: 0.1rem;
+    font-size: 2.5rem;
+  }
+
+  .main span {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-background div {
+    width: 80%;
+    max-width: 1380px;
+  }
+
+  .main h1 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-background img {
+    max-height: 65px;
+  }
+
+  .main h1 {
+    font-size: 4.5rem;
+  }
+
+  .main span {
+    font-size: 1.3rem;
+  }
+}
+
+/* END MAIN */
+
+/* RECORD START */
+.record-figure {
+  display: none;
+}
+
+.record .record-content {
+  background: #8a0045;
+  padding: 2rem;
+}
+
+.record p {
+  margin: 0;
+  color: #fff;
+  font-family: 'NunitoSans ExtraBold';
+}
+
+@media screen and (min-width: 768px) {
+  .record {
+    display: flex;
+    justify-content: center;
+  }
+
+  .record .record-content {
+    position: relative;
+    top: -75px;
+    width: 80%;
+    max-width: 1380px;
+    max-height: 150px;
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .record p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .record-figure {
+    display: block;
+
+    position: absolute;
+    bottom: -75px;
+    right: 0;
+  }
+
+  .record-figure img {
+    max-height: 150px;
+  }
+
+  .record .record-content {
+    padding: 2rem 4rem;
+    top: -90px;
+    max-height: 180px;
+    height: 180px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .record p {
+    font-size: 1rem;
+  }
+}
+
+/* RECORD END */
+
+/* VIOLENCE */
+.violence .container {
+  padding: 2rem 2rem 5rem 2rem;
+}
+
+.violence-content {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .violence-content {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+  }
+}
+
+/* VIOLENCE END */
+
+/* VIOLENCE BG */
+.violence-background {
+  display: flex;
+}
+
+.violence-background img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* VIOLENCE BG END */
+
+/* VIOLENCE BG TEXT START  */
+.violence-background-text {
+  background: #ffd5e459;
+}
+
+.violence-background-text .container {
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.violence-background-text-image {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .violence-background-text .container {
+    position: relative;
+    padding: 4rem 2rem 10rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+  }
+
+  .violence-background-text-image {
+    display: block;
+
+    position: absolute;
+    bottom: -75px;
+    left: 0;
+  }
+
+  .violence-background-text-image img {
+    max-height: 150px;
+  }
+}
+
+/* VIOLENCE BG TEXT END */
+
+/* PREVENTION */
+.prevention .container {
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+.prevention-image {
+  text-align: center;
+}
+
+.prevention-image img {
+  max-height: 150px;
+}
+
+@media screen and (min-width: 1024px) {
+  .prevention .container {
+    padding: 4rem 2rem 20rem 2rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .prevention-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .prevention-image img {
+    max-height: 250px;
+  }
+}
+
+/* PREVENTION END */
+
+/* COMPLAINT */
+
+.complaint {
+  padding-bottom: 4rem;
+}
+
+.complaint-image {
+  display: flex;
+}
+
+.complaint-image img {
+  width: 100%;
+}
+
+.complaint .endpoint {
+  color: #fff;
+}
+
+.complaint-content {
+  background: #e792b0;
+  border-radius: 0 0 150px 0;
+  padding: 2rem 1rem;
+}
+
+.complaint-content-btn {
+  margin-top: 1.5rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.complaint a {
+  background: #8a0045;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  text-transform: none;
+}
+
+.complaint a:hover {
+  background: #8a0045c5;
+}
+
+.complaint-content-figure {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .complaint {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .complaint-content {
+    position: relative;
+    padding: 4rem 4rem 2rem 6rem;
+  }
+
+  .complaint-content-figure {
+    display: block;
+
+    position: absolute;
+    top: -3.5rem;
+    right: 5rem;
+  }
+
+  .complaint-content-figure img {
+    max-height: 90px;
+    transform: rotate(180deg);
+  }
+
+  .complaint-content-btn {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1248px) {
+  .complaint-content-figure {
+    right: 10rem;
+  }
+}
+
+/* COMPLAINT END */
+
+.yellow-container {
+  background: #e9c33a;
+  height: 35px;
+}
