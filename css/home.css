@@ -9,16 +9,12 @@
   max-width: 1280px;
 }
 
-.layout-container {
+.layout {
   position: relative;
-  top: 5.8rem;
 }
 
 /* MAIN - START */
 .main {
-  position: relative;
-  top: 4.7rem;
-
   background: #8a0045;
 }
 
@@ -27,14 +23,14 @@
 }
 
 .main .container {
-  height: calc(100vh - 4.7rem);
+  height: calc(100vh - 77px);
   padding: 2rem;
 }
 
 .main .main-content-text {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 
   height: 100%;
@@ -47,17 +43,19 @@
   text-transform: lowercase;
 
   color: #fff;
-  font-size: 4rem;
+  /* font-size: 4rem; */
+  font-size: 2.5rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
 .main p {
   margin-bottom: 1.5rem;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 
   color: #fff;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-size: 1rem;
   font-family: 'NunitoSans ExtraBold';
 }
 
@@ -74,6 +72,7 @@
   border-radius: 30px 10px 10px 10px;
   color: #fff;
 
+  font-size: 0.9rem;
   font-family: 'NunitoSans Black';
   font-weight: 300;
 
@@ -90,6 +89,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .main {
+    position: relative;
+  }
+
   .main .main-background-image {
     position: absolute;
     top: calc(50% - 120px);
@@ -383,6 +386,7 @@
 
 .news .news-card {
   background: #fff;
+  width: 100%;
   max-width: 300px;
   color: #000;
 
@@ -401,14 +405,12 @@
 
 .news .news-card-content-image {
   display: flex;
-
-  width: 300px;
   height: 200px;
 }
 
-.news img {
+.news .news-card-content-image img {
   object-fit: cover;
-  width: 300px;
+  width: 100%;
   border-radius: 80px 20px 80px 20px;
 }
 
@@ -498,6 +500,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
+  display: none;
   color: #850045;
 }
 
@@ -505,6 +508,13 @@
 .swiper-button-prev::after {
   font-size: 2rem;
   font-weight: bolder;
+}
+
+@media screen and (min-width: 640px) {
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -818,7 +828,7 @@
   text-transform: lowercase;
 
   font-family: 'DMSerifDisplay Regular';
-  font-size: 3.5rem;
+  font-size: 2.4rem;
 
   color: #850045;
 }
@@ -868,6 +878,13 @@
 
 .birth-btn a:hover {
   background: #c24c75;
+}
+
+@media screen and (min-width: 640px) {
+  .birth-content-text p span:nth-child(1),
+  .birth-content-text p span:nth-child(2) {
+    font-size: 3.5rem;
+  }
 }
 
 @media screen and (min-width: 760px) {
@@ -929,9 +946,9 @@
   max-height: 95px;
 }
 
+/* INSTITUTE END */
+
 .yellow-container {
   background: #e9c33a;
   height: 35px;
 }
-
-/* INSTITUTE END */

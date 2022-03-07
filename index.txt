@@ -1,115 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Inmujer</title>
-    <link rel="shortcut icon" href="./assets/Logo-del-instituto.ico" type="image/x-icon" />
+INDEX PAGE CODE:
+ <!-- MAIN -->
+    <main class="main">
+      <div class="main-background-image">
+        <img src="./assets/images/home/Mapa fondo home.png" alt="" />
+      </div>
 
-    <!-- SWIPER CSS LINK -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-    <!-- FONTS LINKS -->
-    <link rel="stylesheet" href="./css/fonts.css" />
-
-    <!-- CSS LINKS -->
-    <link rel="stylesheet" href="./css/home.css" />
-    <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
-
-    <!-- FONTAWESOME CDN LINK -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header class="header">
-      <!-- CONTAINER LAYOUT -->
       <div class="container">
-        <!-- LOGO -->
-        <div>
-          <a href="./index.html">
-            <img class="header-logo" src="./assets/images/Logo del instituto.png" alt="Logo" />
-          </a>
+        <!-- MAIN TEXT CONTENT -->
+        <div class="main-content-text">
+          <h1>Inmujer</h1>
+
+          <p>
+            Instituto municipal <br />
+            de la mujer bolivariana
+          </p>
+
+          <a href="">Historia</a>
         </div>
 
-        <!-- NAVBAR -->
-        <nav class="">
-          <li><a href="./about.html">Nosotras</a></li>
-          <li><a href="./projects.html">Proyectos</a></li>
-          <li><a href="./services.html">Servicios</a></li>
-          <li><a href="./gallery-photos.html">Galería</a></li>
-          <li><a href="./violence.html">Violencia</a></li>
-          <li><a href="#">Contáctanos</a></li>
+        <!-- MAIN IMAGES CONTENT -->
+        <div class="main-content-images">
+          <div class="images-container">
+            <div class="image-figure-1">
+              <img src="./assets/images/home/figuras/Elemento home 1.png" alt="" />
+            </div>
+            <div class="image-figure-2">
+              <img src="./assets/images/home/figuras/Elemento home 2.png" alt="" />
+            </div>
 
-          <div class="search-input">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="image image-1"></div>
+            <div class="image image-2"></div>
+            <div class="image image-3"></div>
 
-            <input type="text" placeholder="Buscar..." />
+            <div class="image image-4"></div>
+            <div class="image image-5"></div>
+
+            <div class="image image-6"></div>
+            <div class="image image-7"></div>
+
+            <div class="image image-8"></div>
+            <div class="image image-9"></div>
           </div>
-        </nav>
-
-        <!-- MOBILE BURGER ICON -->
-        <div class="header-icon" onclick="mobileNavHandler()">
-          <i class="fa-solid fa-bars"></i>
         </div>
       </div>
-    </header>
+    </main>
 
-    <!-- LAYOUT -->
-    <div class="layout">
-      <!-- MAIN -->
-      <main class="main">
-        <div class="main-background-image">
-          <img src="./assets/images/home/Mapa fondo home.png" alt="" />
-        </div>
-
-        <div class="container">
-          <!-- MAIN TEXT -->
-          <div class="main-content-text">
-            <h1>Inmujer</h1>
-
-            <p>
-              Instituto municipal
-              <span>de la mujer bolivariana</span>
-            </p>
-
-            <a href="">Historia</a>
-          </div>
-
-          <!-- MAIN IMAGES CONTENT -->
-          <div class="main-content-images">
-            <div class="images-container">
-              <div class="image-figure-1">
-                <img src="./assets/images/home/figuras/Elemento home 1.png" alt="" />
-              </div>
-              <div class="image-figure-2">
-                <img src="./assets/images/home/figuras/Elemento home 2.png" alt="" />
-              </div>
-
-              <div class="image image-1"></div>
-              <div class="image image-2"></div>
-              <div class="image image-3"></div>
-
-              <div class="image image-4"></div>
-              <div class="image image-5"></div>
-
-              <div class="image image-6"></div>
-              <div class="image image-7"></div>
-
-              <div class="image image-8"></div>
-              <div class="image image-9"></div>
-            </div>
-          </div>
-        </div>
-      </main>
-
+    <!-- Layout -->
+    <div class="layout-container">
       <!-- ABOUT US -->
       <section class="about">
         <div class="container">
@@ -499,31 +436,49 @@
       });
     </script>
 
-    <script src="./js/main.js"></script>
-  </body>
-</html>
 
-<!--
-   
-   <section class="about">
-    <div class="container">
-      <div class="about-content-image">
-        <img src="./assets/images/home/Quiénes somos.png" alt="" />
-      </div>
 
-      <div class="about-content-text">
-        <h2>
-          ¿Quiénes <span>somos? <span></span></span>
-        </h2>
+/* NEW */
+ <!-- LAYOUT -->
+    <div class="layout">
+      <!-- MAIN -->
+      <main class="main">
+        <div class="container">
+          <!-- MAIN TEXT -->
+          <div class="main-content-text">
+            <h1>Inmujer</h1>
 
-        <p>
-          Somos el instituto municipal de la mujer pionero en la República Bolivariana de
-          Venezuela, centinela de los derechos y garantías fundamentales de las mujeres
-          residentes del municipio Cabimas y velamos con especial atención por el derecho de las
-          féminas a una vida libre de violencia.
-        </p>
-      </div>
+            <p>
+              Instituto municipal
+              <span>de la mujer bolivariana</span>
+            </p>
+
+            <a href="">Historia</a>
+          </div>
+
+          <!-- MAIN IMAGES CONTENT -->
+        <div class="main-content-images">
+          <div class="images-container">
+            <div class="image-figure-1">
+              <img src="./assets/images/home/figuras/Elemento home 1.png" alt="" />
+            </div>
+            <div class="image-figure-2">
+              <img src="./assets/images/home/figuras/Elemento home 2.png" alt="" />
+            </div>
+
+            <div class="image image-1"></div>
+            <div class="image image-2"></div>
+            <div class="image image-3"></div>
+
+            <div class="image image-4"></div>
+            <div class="image image-5"></div>
+
+            <div class="image image-6"></div>
+            <div class="image image-7"></div>
+
+            <div class="image image-8"></div>
+            <div class="image image-9"></div>
+          </div>
+        </div>
+      </main>
     </div>
-  </section>
-  
--->
