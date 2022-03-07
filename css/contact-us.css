@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* GLOBAL CLASSES START */
+.container {
+  margin: 0 auto;
+  /* max-width: 1280px; */
+  max-width: 1380px;
+}
+
+.layout {
+  position: relative;
+  top: 4.5rem;
+}
+
+.btn {
+  width: 150px;
+  height: 45px;
+  text-decoration: none;
+
+  outline: none;
+  border: none;
+  border-radius: 25px 5px 5px 5px;
+
+  font-family: 'NunitoSans Black';
+  font-size: 0.9rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-title {
+  text-transform: lowercase;
+
+  color: #890045;
+  font-family: 'DMSerifDisplay Regular';
+  font-size: 2.5rem;
+
+  text-align: center;
+}
+
+.sub-title .endpoint {
+  color: #e792b0;
+  font-size: 3rem;
+}
+
+.paragraph {
+  margin-top: 1.5rem;
+  line-height: 1.5rem;
+
+  color: #070707;
+  font-family: 'NunitoSans Regular';
+  font-size: 0.9rem;
+}
+
+.strong-pink {
+  color: #e792b0;
+}
+
+@media screen and (min-width: 768px) {
+  .sub-title {
+    text-align: start;
+    font-size: 4rem;
+  }
+
+  .sub-title .down {
+    display: block;
+  }
+
+  .sub-title .endpoint {
+    font-size: 4rem;
+  }
+
+  .paragraph {
+    font-size: 1.1rem;
+  }
+
+  .btn {
+    width: 170px;
+    font-size: 1rem;
+  }
+}
+
+/* GLOBAL CLASSES END */
+
+/* MAIN START */
+.main-image {
+  min-height: 250px;
+  display: flex;
+}
+
+.main-image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.main h1 {
+  line-height: 2.5rem;
+}
+
+.main form {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  color: #a90045;
+  font-size: 0.9rem;
+  font-family: 'NunitoSans ExtraBold';
+}
+
+.form-group input {
+  display: block;
+
+  width: 100%;
+  height: 45px;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+
+  border: 2px solid #a90045;
+  outline: none;
+  border-radius: 6px;
+
+  font-family: 'NunitoSans Regular';
+
+  transition: all 0.2s ease-in-out;
+}
+
+.main .btn {
+  background: #e792b0;
+  width: 100%;
+  color: #fff;
+}
+
+/* MAIN END */
+
+/* CONTACT US START */
+.contact-us .container {
+  padding: 2rem;
+}
+
+.contact-us-icons {
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.contact-us-icons:last-of-type {
+  margin-top: 1rem;
+}
+
+.contact-us-icons p {
+  margin-top: 0;
+  margin-left: 1rem;
+}
+
+.contact-us-icons i {
+  color: #e792b0;
+  font-size: 1.2rem;
+}

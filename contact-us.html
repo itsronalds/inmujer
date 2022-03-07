@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contáctanos</title>
+    <link rel="shortcut icon" href="./assets/Logo-del-instituto.ico" type="image/x-icon" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- FONTS LINKS -->
+    <link rel="stylesheet" href="./css/fonts.css" />
+
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="./css/contact-us.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- FONTAWESOME CDN LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header border-radius">
+      <!-- CONTAINER LAYOUT -->
+      <div class="container">
+        <!-- LOGO -->
+        <div>
+          <a href="./index.html"><img src="./assets/images/Logo del instituto.png" alt="Logo" /></a>
+        </div>
+
+        <!-- NAVBAR -->
+        <nav>
+          <li><a href="./about.html">Nosotras</a></li>
+          <li><a href="./projects.html">Proyectos</a></li>
+          <li><a href="./services.html">Servicios</a></li>
+          <li><a href="./gallery-photos.html">Galería</a></li>
+          <li><a class="active" href="./violence.html">Violencia</a></li>
+          <li><a href="#">Contáctanos</a></li>
+
+          <div class="search-input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <input type="text" placeholder="Buscar..." />
+          </div>
+        </nav>
+
+        <!-- MOBILE BURGER ICON -->
+        <div class="burger-icon" onclick="mobileNavHandler()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- LAYOUT -->
+    <div class="layout">
+      <!-- MAIN -->
+      <div class="main">
+        <!-- MAIN IMAGE -->
+        <div class="main-image">
+          <img src="./assets/images/contact-us/5b68ca444.jpeg" alt="" />
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+          <h1 class="sub-title">
+            Únete a <span class="down">nosotras <span class="endpoint">.</span></span>
+          </h1>
+
+          <p class="paragraph">
+            Regístrate en nuestra plataforma completando el formulario con tus datos de contacto,
+            para que te enteres de todas nuestras actividades, talleres y proyectos.
+          </p>
+
+          <!-- FORM -->
+          <form>
+            <div class="form-group">
+              <label for="">Nombre y apellido</label>
+
+              <input type="text" placeholder="Ingresa el nombre y apellido..." />
+            </div>
+
+            <div class="form-group">
+              <label for="">Email</label>
+
+              <input type="email" placeholder="Ingresa el email..." />
+            </div>
+
+            <div class="form-group">
+              <label for="">Número de telefono</label>
+
+              <input type="text" placeholder="Ingresa tú número de télefono..." />
+            </div>
+
+            <div class="form-group">
+              <label for="">Parroquia donde vives</label>
+
+              <input type="text" placeholder="Ingresa la parroquia donde vives..." />
+            </div>
+
+            <button class="btn">Enviar</button>
+          </form>
+        </div>
+
+        <!-- CONTACT US -->
+        <section class="contact-us">
+          <div class="container">
+            <!-- CONTACT US CONTENT -->
+            <div class="contact-us-content">
+              <h1 class="sub-title">
+                ¿Como <span class="down">ubicarnos? <span class="endpoint">.</span></span>
+              </h1>
+
+              <p class="paragraph">
+                Encuéntranos en el Centro Comercial La Fuente. Primer piso, al lado de Esogas,
+                Cabimas, Zulia. Venezuela
+              </p>
+
+              <div class="contact-us-icons">
+                <i class="fa-solid fa-phone"></i>
+
+                <p class="paragraph">+58 0414 567 8658</p>
+              </div>
+
+              <div class="contact-us-icons">
+                <i class="fa-solid fa-envelope"></i>
+
+                <p class="paragraph">inmujercabimas@gmail.com</p>
+              </div>
+            </div>
+
+            <!-- CONTACT US FIGURE -->
+            <div class="contact-us-figure"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
