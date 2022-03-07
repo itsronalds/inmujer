@@ -10,13 +10,25 @@
   max-width: 1280px;
 }
 
-.layout-container {
+.layout {
   position: relative;
-  top: 4.8rem;
+  top: 77px;
+}
+
+@media screen and (min-width: 640px) {
+  .layout {
+    top: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    top: 71px;
+  }
 }
 
 .btn {
-  width: 150px;
+  width: 120px;
   height: 45px;
   text-decoration: none;
 
@@ -56,6 +68,12 @@
   font-size: 1rem;
 }
 
+@media screen and (min-width: 468px) {
+  .btn {
+    width: 150px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .sub-title {
     text-align: start;
@@ -84,7 +102,6 @@
 /* MAIN START */
 .main {
   position: relative;
-  top: 5.1rem;
 }
 
 .main img {

@@ -13,6 +13,18 @@
   position: relative;
 }
 
+@media screen and (min-width: 640px) {
+  .layout {
+    top: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    top: 71px;
+  }
+}
+
 /* MAIN - START */
 .main {
   background: #8a0045;
@@ -107,7 +119,8 @@
   }
 
   .main .container {
-    height: 792px;
+    /* height: 792px; */
+    height: 816px;
   }
 
   .main .main-content-text {
@@ -130,7 +143,7 @@
 
   .main .main-content-images {
     position: absolute;
-    top: 1.6rem;
+    top: 3rem; /* 1.6rem */
     right: 0;
 
     display: flex;

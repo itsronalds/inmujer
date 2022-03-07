@@ -1,4 +1,8 @@
 .header {
+  position: absolute;
+  top: 0;
+
+  width: 100%;
   background: #8a0045;
   font-family: 'NunitoSans ExtraBold';
   z-index: 1000;
@@ -77,6 +81,10 @@
 }
 
 @media screen and (min-width: 640px) {
+  .header.border-radius {
+    border-radius: 0 0 2rem 2rem;
+  }
+
   .header .header-logo {
     max-height: 3rem;
   }
@@ -149,158 +157,3 @@
     width: 12.5rem;
   }
 }
-
-/* .header {
-  background: #8a0045;
-  font-family: 'NunitoSans ExtraBold';
-  z-index: 1000;
-}
-
-.header .container {
-  padding: 1rem 2rem;
-
-  font-size: 0.8rem;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header img {
-  object-fit: cover;
-  max-height: 2.5rem;
-}
-
-.header nav {
-  list-style: none;
-
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
-  gap: 2rem;
-  align-items: center;
-}
-
-.header a {
-  text-transform: uppercase;
-  text-decoration: none;
-
-  color: #fff;
-  cursor: pointer;
-
-  transition: all 0.3s ease-in-out;
-}
-
-.header a.active {
-  color: #e9c33a;
-}
-
-.header a:hover {
-  color: #e9c33a;
-}
-
-.header .search-input {
-  padding: 0.6rem;
-
-  border-radius: 1.5rem;
-
-  display: flex;
-  align-items: center;
-}
-
-.header .search-input i {
-  color: #fff;
-
-  font-size: 1.2rem;
-}
-
-.header .search-input input {
-  background: none;
-  width: 0;
-  margin-left: 0.5rem;
-
-  letter-spacing: 0.1rem;
-  outline: none;
-  border: none;
-
-  font-family: 'NunitoSans ExtraBold';
-
-  transition: all 0.3s ease-in-out;
-}
-
-.header .search-input:hover {
-  background-color: #fff;
-}
-
-.header .search-input:hover > i {
-  color: rgb(185, 185, 185);
-}
-
-.header .search-input:hover > input {
-  width: 12.5rem;
-}
-
-.header .burger-icon {
-  display: none;
-}
-
-@media screen and (min-width: 468px) {
-  .header img {
-    max-height: 3rem;
-  }
-}
-
-@media screen and (max-width: 645px) {
-  .header.border-radius {
-    border-radius: 0 0 30px 30px;
-  }
-}
-
-@media screen and (max-width: 1145px) {
-  .header nav {
-    position: absolute;
-    left: 0;
-    top: 77px;
-
-    background: #8a0045;
-    width: 100%;
-    height: 0;
-    opacity: 0;
-
-    grid-template-columns: auto;
-    grid-auto-rows: 5rem;
-    gap: 0;
-
-    text-align: center;
-
-    transition: all 0.3s ease-in-out;
-
-    z-index: 1000;
-
-    pointer-events: none;
-  }
-
-  .header nav.open {
-    height: calc(100vh - 77px);
-    opacity: 1;
-
-    overflow-y: auto;
-    pointer-events: auto;
-  }
-
-  .header nav::-webkit-scrollbar {
-    display: none;
-  }
-
-  .header .burger-icon {
-    display: block;
-
-    color: #fff;
-    font-size: 1.3rem;
-
-    cursor: pointer;
-  }
-
-  .header .search-input {
-    display: none;
-  }
-} */

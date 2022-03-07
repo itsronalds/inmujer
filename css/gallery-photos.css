@@ -13,11 +13,23 @@
 
 .layout {
   position: relative;
-  top: 4.5rem;
+  top: 77px;
+}
+
+@media screen and (min-width: 640px) {
+  .layout {
+    top: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    top: 71px;
+  }
 }
 
 .btn {
-  width: 150px;
+  width: 130px;
   height: 45px;
   text-decoration: none;
 
@@ -59,6 +71,12 @@
 
 .strong-pink {
   color: #e792b0;
+}
+
+@media screen and (min-width: 468px) {
+  .btn {
+    width: 150px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -274,6 +292,7 @@
 .big-card {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 120px 30px 30px 30px;
+  width: 100%;
 
   transition: all 0.3s ease-in-out;
 }

@@ -12,7 +12,19 @@
 
 .layout {
   position: relative;
-  top: 4.5rem;
+  top: 77px;
+}
+
+@media screen and (min-width: 640px) {
+  .layout {
+    top: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    top: 71px;
+  }
 }
 
 .sub-title {
@@ -68,6 +80,8 @@
 .main {
   position: relative;
   display: flex;
+
+  min-height: 400px;
 }
 
 .main img {
@@ -336,11 +350,17 @@
 }
 
 .target .container {
-  padding: 4rem 4rem 5rem 4rem;
+  padding: 2rem 1rem 3rem 1rem;
 }
 
 .target p {
   color: #fff;
+}
+
+@media screen and (min-width: 468px) {
+  .target .container {
+    padding: 4rem 4rem 5rem 4rem;
+  }
 }
 
 @media screen and (min-width: 760px) {

@@ -12,7 +12,19 @@
 
 .layout {
   position: relative;
-  top: 4.5rem;
+  top: 77px;
+}
+
+@media screen and (min-width: 640px) {
+  .layout {
+    top: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    top: 71px;
+  }
 }
 
 .btn {
@@ -89,9 +101,12 @@
 .main {
   position: relative;
   display: flex;
+
+  min-height: 400px;
 }
 
 .main img {
+  object-fit: cover;
   width: 100%;
 }
 
@@ -419,12 +434,12 @@
   transition: all 0.2s ease-in-out;
   font-family: 'NunitoSans Regular';
 }
-
+/* 
 .form-group input:focus,
 .form-group textarea:focus {
   border: 1px solid #a90045;
   box-shadow: 0 0 5px #a90045;
-}
+} */
 
 .services-form-container a {
   background: #e792b0;

@@ -13,7 +13,19 @@
 
 .layout {
   position: relative;
-  top: 4.5rem;
+  top: 77px;
+}
+
+@media screen and (min-width: 640px) {
+  .layout {
+    top: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    top: 71px;
+  }
 }
 
 .btn {
@@ -92,7 +104,7 @@
 }
 
 .main-image {
-  min-height: 250px;
+  min-height: 400px;
   display: flex;
 }
 
