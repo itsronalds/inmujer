@@ -135,7 +135,7 @@
 }
 
 .main-bg-image img {
-  max-height: 30px;
+  max-height: 40px;
 }
 
 .main-bg h1 {
@@ -144,13 +144,13 @@
   text-transform: lowercase;
 
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
 .main-bg p {
   color: #e9c33a;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: 'NunitoSans Black';
 }
 

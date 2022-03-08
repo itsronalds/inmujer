@@ -49,7 +49,7 @@
 
   color: #890045;
   font-family: 'DMSerifDisplay Regular';
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 
   text-align: center;
 }
@@ -70,6 +70,12 @@
 
 .strong-pink {
   color: #e792b0;
+}
+
+@media screen and (min-width: 468px) {
+  .sub-title {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {

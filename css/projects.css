@@ -32,7 +32,7 @@
 
   color: #890045;
   font-family: 'DMSerifDisplay Regular';
-  font-size: 2.5rem;
+  font-size: 2.4rem;
 
   text-align: center;
 }
@@ -53,6 +53,12 @@
 
 .strong-pink {
   color: #e792b0;
+}
+
+@media screen and (min-width: 468px) {
+  .sub-title {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -107,7 +113,7 @@
 
 .main-bg p {
   font-family: 'NunitoSans Black';
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #e9c33a;
   margin-bottom: 1rem;
 }
@@ -115,7 +121,7 @@
 .main-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
+  column-gap: 1rem;
 }
 
 .main-grid div:nth-child(2) {
@@ -127,11 +133,15 @@
   text-transform: lowercase;
 
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
 @media screen and (min-width: 645px) {
+  .main-grid {
+    column-gap: 2rem;
+  }
+
   .main-bg h2 {
     font-size: 2rem;
   }
@@ -164,7 +174,7 @@
 }
 
 .birth img {
-  max-height: 200px;
+  max-height: 130px;
 }
 
 @media screen and (min-width: 765px) {
@@ -180,6 +190,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .birth img {
+    max-height: 200px;
   }
 }
 
@@ -201,7 +215,7 @@
 }
 
 .assistance .container {
-  padding: 4rem;
+  padding: 4rem 1rem;
 }
 
 .assistance p {
@@ -212,7 +226,13 @@
   display: none;
 }
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 640px) {
+  .assistance .container {
+    padding: 4rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .assistance .container {
     padding: 4rem 10rem;
   }
@@ -316,7 +336,7 @@
 }
 
 .gestation-image img {
-  max-height: 200px;
+  max-height: 150px;
 }
 
 @media screen and (min-width: 765px) {
@@ -332,6 +352,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .gestation-image img {
+    max-height: 200px;
   }
 }
 
