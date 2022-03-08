@@ -29,7 +29,7 @@
 }
 
 .btn {
-  width: 130px;
+  width: 120px;
   height: 45px;
   text-decoration: none;
 
@@ -164,23 +164,31 @@
   width: 100%;
 }
 
-@media screen and (min-width: 445px) {
+@media screen and (min-width: 468px) {
   .main span {
     font-size: 1.1rem;
   }
 
   .main h1 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     line-height: 55px;
   }
 
   .main p {
     padding: 0 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
 @media screen and (min-width: 645px) {
+  .main h1 {
+    font-size: 3.5rem;
+  }
+
+  .main p {
+    font-size: 1rem;
+  }
+
   .main-content-image img {
     max-height: 50px;
   }

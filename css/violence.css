@@ -47,6 +47,7 @@
 
 .sub-title {
   text-transform: lowercase;
+  line-height: 100%;
 
   color: #890045;
   font-family: 'DMSerifDisplay Regular';
@@ -172,6 +173,7 @@
   .main-background div {
     width: 80%;
     max-width: 1380px;
+    padding-bottom: 2rem;
   }
 
   .main h1 {
@@ -180,6 +182,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .main-background div {
+    padding-bottom: 0;
+  }
+
   .main-background img {
     max-height: 65px;
   }
@@ -247,9 +253,9 @@
 
   .record .record-content {
     padding: 2rem 4rem;
-    top: -90px;
-    max-height: 180px;
-    height: 180px;
+    top: -110px;
+    max-height: 210px;
+    height: 210px;
 
     display: flex;
     justify-content: center;
@@ -450,6 +456,10 @@
 
   .complaint-content-btn {
     justify-content: flex-start;
+  }
+
+  .complaint a {
+    font-size: 1rem;
   }
 }
 

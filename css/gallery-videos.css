@@ -28,7 +28,7 @@
 }
 
 .btn {
-  width: 130px;
+  width: 120px;
   height: 45px;
   text-decoration: none;
 
@@ -165,19 +165,19 @@
   width: 100%;
 }
 
-@media screen and (min-width: 445px) {
+@media screen and (min-width: 468px) {
   .main span {
     font-size: 1.1rem;
   }
 
   .main h1 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     line-height: 55px;
   }
 
   .main p {
     padding: 0 1rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -318,7 +318,7 @@
 }
 
 .activities h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -328,7 +328,7 @@
 
 .activities .activities-card a {
   text-decoration: none;
-  padding: 0.4rem 1rem;
+  padding: 0.3rem 1rem;
 
   border-radius: 25px 5px 5px 5px;
   color: #850045;
@@ -343,6 +343,16 @@
 .activities .activities-card a:hover {
   background: #850045;
   color: #fff;
+}
+
+@media screen and (min-width: 468px) {
+  .activities h3 {
+    font-size: 1rem;
+  }
+
+  .activities .activities-card a {
+    padding: 0.4rem 1rem;
+  }
 }
 
 @media screen and (min-width: 760px) {

@@ -51,6 +51,7 @@
 
 .sub-title {
   text-transform: lowercase;
+  line-height: 100%;
 
   color: #890045;
   font-family: 'DMSerifDisplay Regular';
@@ -154,17 +155,19 @@
   font-family: 'NunitoSans Black';
 }
 
-@media screen and (min-width: 645px) {
-  .main-bg-image img {
-    max-height: 50px;
-  }
-
+@media screen and (min-width: 468px) {
   .main-bg h1 {
     font-size: 2rem;
   }
 
   .main-bg p {
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 645px) {
+  .main-bg-image img {
+    max-height: 50px;
   }
 }
 

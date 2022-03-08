@@ -29,6 +29,7 @@
 
 .sub-title {
   text-transform: lowercase;
+  line-height: 100%;
 
   color: #890045;
   font-family: 'DMSerifDisplay Regular';
@@ -137,17 +138,19 @@
   font-family: 'DMSerifDisplay Regular';
 }
 
-@media screen and (min-width: 645px) {
-  .main-grid {
-    column-gap: 2rem;
-  }
-
+@media screen and (min-width: 468px) {
   .main-bg h2 {
     font-size: 2rem;
   }
 
   .main-bg p {
     font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 645px) {
+  .main-grid {
+    column-gap: 2rem;
   }
 }
 

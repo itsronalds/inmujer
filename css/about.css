@@ -46,6 +46,7 @@
 
 .sub-title {
   text-transform: lowercase;
+  line-height: 100%;
 
   color: #890045;
   font-family: 'DMSerifDisplay Regular';

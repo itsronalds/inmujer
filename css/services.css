@@ -193,6 +193,10 @@
   z-index: 1;
 }
 
+.consultancies-content h2 {
+  line-height: 100%;
+}
+
 .consultancies-subtitle {
   margin-top: 1rem;
   text-align: center;
@@ -457,6 +461,20 @@
   background: #f188ad;
 }
 
+.services-form h2 {
+  line-height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .form-group label {
+    font-size: 1rem;
+  }
+
+  .form-group input {
+    font-size: 0.9rem;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .services-form .container {
     grid-template-columns: repeat(2, 1fr);
@@ -464,6 +482,10 @@
 
   .services-form-content {
     padding-right: 2rem;
+  }
+
+  .form-group input {
+    height: 48px;
   }
 }
 

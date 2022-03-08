@@ -8,7 +8,7 @@
 .container {
   margin: 0 auto;
   /* max-width: 1280px; */
-  max-width: 1380px;
+  max-width: 1280px;
 }
 
 .layout {
@@ -23,7 +23,7 @@
 
   outline: none;
   border: none;
-  border-radius: 25px 5px 5px 5px;
+  border-radius: 25px 8px 8px 8px;
 
   font-family: 'NunitoSans Black';
   font-size: 0.9rem;
@@ -98,13 +98,14 @@
 .main-image img {
   object-fit: cover;
   width: 100%;
+  border-radius: 0 0 130px 0;
 }
 
 .main-content {
   padding: 2rem;
 }
 
-.main h1 {
+.main h2 {
   line-height: 2.5rem;
 }
 
@@ -143,13 +144,61 @@
   background: #e792b0;
   width: 100%;
   color: #fff;
+  cursor: pointer;
+}
+
+.main .btn:hover {
+  background: #e281a3;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main h2 {
+    line-height: 3.5rem;
+  }
+
+  .main .btn {
+    width: 170px;
+  }
+
+  .form-group label {
+    font-size: 1rem;
+  }
+
+  .form-group input {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-content {
+    padding-top: 4rem;
+    padding-right: 15rem;
+  }
+
+  .main {
+    grid-template-columns: 1.5fr 2fr;
+    column-gap: 2rem;
+  }
+
+  .form-group input {
+    height: 48px;
+  }
 }
 
 /* MAIN END */
 
 /* CONTACT US START */
+.contact-us {
+  position: relative;
+}
+
 .contact-us .container {
-  padding: 2rem;
+  padding: 2rem 2rem 3rem 2rem;
 }
 
 .contact-us-icons {
@@ -171,4 +220,79 @@
 .contact-us-icons i {
   color: #e792b0;
   font-size: 1.2rem;
+}
+
+.contact-us h2 {
+  line-height: 2.5rem;
+}
+
+.contact-us-figure {
+  display: none;
+}
+
+@media screen and (min-width: 648px) {
+  .contact-us h2 {
+    line-height: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-us .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-us-figure {
+    /* background-color: rebeccapurple; */
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .contact-us-figure-1 {
+    background: #e9c33a;
+    width: 250px;
+    height: 120px;
+    border-radius: 80px 20px 80px 80px;
+  }
+
+  .contact-us-figure img {
+    position: absolute;
+    right: 80px;
+    top: -70px;
+    max-height: 130px;
+    transform: rotate(180deg);
+  }
+}
+
+/* CONTACT US END */
+
+/* GOOGLE MAPS START */
+.google-maps {
+  height: 400px;
+  display: flex;
+
+  padding-bottom: 2rem;
+}
+
+.google-maps img {
+  object-fit: cover;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .google-maps {
+    height: 600px;
+  }
+}
+
+/* GOOGLE MAPS END */
+
+.pink-container {
+  background: #e792b0;
+  height: 35px;
 }

@@ -34,17 +34,19 @@
       <div class="container">
         <!-- LOGO -->
         <div>
-          <a href="./index.html"><img src="./assets/images/Logo del instituto.png" alt="Logo" /></a>
+          <a href="./index.html">
+            <img class="header-logo" src="./assets/images/Logo del instituto.png" alt="Logo" />
+          </a>
         </div>
 
         <!-- NAVBAR -->
-        <nav>
+        <nav class="">
           <li><a href="./about.html">Nosotras</a></li>
           <li><a href="./projects.html">Proyectos</a></li>
           <li><a href="./services.html">Servicios</a></li>
           <li><a href="./gallery-photos.html">Galería</a></li>
-          <li><a class="active" href="./violence.html">Violencia</a></li>
-          <li><a href="#">Contáctanos</a></li>
+          <li><a href="./violence.html">Violencia</a></li>
+          <li><a class="active" href="./contact-us.html">Contáctanos</a></li>
 
           <div class="search-input">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -54,7 +56,7 @@
         </nav>
 
         <!-- MOBILE BURGER ICON -->
-        <div class="burger-icon" onclick="mobileNavHandler()">
+        <div class="header-icon" onclick="mobileNavHandler()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </div>
@@ -71,9 +73,9 @@
 
         <!-- MAIN CONTENT -->
         <div class="main-content">
-          <h1 class="sub-title">
+          <h2 class="sub-title">
             Únete a <span class="down">nosotras <span class="endpoint">.</span></span>
-          </h1>
+          </h2>
 
           <p class="paragraph">
             Regístrate en nuestra plataforma completando el formulario con tus datos de contacto,
@@ -109,39 +111,107 @@
             <button class="btn">Enviar</button>
           </form>
         </div>
+      </div>
 
-        <!-- CONTACT US -->
-        <section class="contact-us">
-          <div class="container">
-            <!-- CONTACT US CONTENT -->
-            <div class="contact-us-content">
-              <h1 class="sub-title">
-                ¿Como <span class="down">ubicarnos? <span class="endpoint">.</span></span>
-              </h1>
+      <!-- CONTACT US -->
+      <section class="contact-us">
+        <div class="container">
+          <!-- CONTACT US CONTENT -->
+          <div class="contact-us-content">
+            <h2 class="sub-title">
+              ¿Como <span class="down">ubicarnos? <span class="endpoint">.</span></span>
+            </h2>
 
-              <p class="paragraph">
-                Encuéntranos en el Centro Comercial La Fuente. Primer piso, al lado de Esogas,
-                Cabimas, Zulia. Venezuela
-              </p>
+            <p class="paragraph">
+              Encuéntranos en el Centro Comercial La Fuente. Primer piso, al lado de Esogas,
+              Cabimas, Zulia. Venezuela
+            </p>
 
-              <div class="contact-us-icons">
-                <i class="fa-solid fa-phone"></i>
+            <div class="contact-us-icons">
+              <i class="fa-solid fa-phone"></i>
 
-                <p class="paragraph">+58 0414 567 8658</p>
-              </div>
-
-              <div class="contact-us-icons">
-                <i class="fa-solid fa-envelope"></i>
-
-                <p class="paragraph">inmujercabimas@gmail.com</p>
-              </div>
+              <p class="paragraph">+58 0414 567 8658</p>
             </div>
 
-            <!-- CONTACT US FIGURE -->
-            <div class="contact-us-figure"></div>
+            <div class="contact-us-icons">
+              <i class="fa-solid fa-envelope"></i>
+
+              <p class="paragraph">inmujercabimas@gmail.com</p>
+            </div>
           </div>
-        </section>
-      </div>
+        </div>
+
+        <!-- CONTACT US FIGURE -->
+        <div class="contact-us-figure">
+          <div style="position: relative">
+            <div class="contact-us-figure-1"></div>
+
+            <img src="./assets/images/home/figuras/Recursos-Web-Iaaanmujer.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- GOOGLE MAPS  -->
+      <section class="google-maps">
+        <img src="./assets/images/location.png" alt="" />
+      </section>
+
+      <!-- PINK BAR -->
+      <div class="pink-container"></div>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content-container">
+            <div class="footer-logo">
+              <a href="./index.html"
+                ><img class="logo" src="./assets/images/Logo del instituto.png" alt=""
+              /></a>
+            </div>
+
+            <div class="footer-content">
+              <!-- NAV -->
+              <div>
+                <ul>
+                  <li><a href="">Nosotras</a></li>
+                  <li><a href="">Proyectos</a></li>
+                  <li><a href="">Servicios</a></li>
+                  <li><a href="">Galería</a></li>
+                  <li><a href="">Violencia</a></li>
+                  <li><a href="">Contáctanos</a></li>
+                </ul>
+              </div>
+
+              <!-- SOCIAL NETWORKS -->
+              <div class="footer-social-networks">
+                <div class="networks-container">
+                  <a
+                    style="text-decoration: none"
+                    href="https://www.facebook.com/immujer1"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+
+                  <a
+                    style="text-decoration: none"
+                    href="https://www.youtube.com/channel/UCGyzd1RYzJ5uV1EJ69MFRpQ/videos"
+                    target="_blank"
+                  >
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-derechos">
+            <p>INMUJER © 2022</p>
+          </div>
+        </div>
+      </footer>
     </div>
+
+    <script src="./js/main.js"></script>
   </body>
 </html>
