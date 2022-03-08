@@ -40,7 +40,7 @@
 
 .header nav.open {
   background-color: #8a0045;
-  height: calc(100vh - 77px);
+  height: 100vh;
   opacity: 1;
   z-index: 1000;
 
@@ -67,6 +67,10 @@
 }
 
 .header a:hover {
+  color: #e9c33a;
+}
+
+.header a.active {
   color: #e9c33a;
 }
 

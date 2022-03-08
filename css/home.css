@@ -11,6 +11,7 @@
 
 .layout {
   position: relative;
+  top: 77px;
 }
 
 @media screen and (min-width: 640px) {
@@ -288,7 +289,8 @@
 }
 
 .about img {
-  max-height: 200px;
+  /* max-height: 200px; */
+  max-height: 150px;
 }
 
 .about-content-text {
@@ -327,6 +329,11 @@
   .about .about-content-image {
     text-align: start;
   }
+
+  .about img {
+    max-height: 200px;
+  }
+
   .about-content-text {
     margin-top: 0;
   }
@@ -702,7 +709,7 @@
 }
 
 .activities h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -712,7 +719,7 @@
 
 .activities .activities-card a {
   text-decoration: none;
-  padding: 0.4rem 1rem;
+  padding: 0.3rem 0.8rem;
 
   border-radius: 25px 5px 5px 5px;
   color: #850045;
@@ -756,6 +763,16 @@
 
 .activities-btn a:hover {
   background: #c24c75;
+}
+
+@media screen and (min-width: 468px) {
+  .activities h3 {
+    font-size: 1rem;
+  }
+
+  .activities .activities-card a {
+    padding: 0.4rem 1rem;
+  }
 }
 
 @media screen and (min-width: 760px) {
