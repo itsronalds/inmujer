@@ -61,8 +61,8 @@
 }
 
 .paragraph {
-  margin-top: 1.5rem;
-  line-height: 1.5rem;
+  margin-top: 0.5rem;
+  line-height: 1.7rem;
 
   color: #070707;
   font-family: 'NunitoSans Regular';
@@ -99,6 +99,16 @@
 
   .btn {
     width: 170px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .paragraph {
+    font-size: 1.2rem;
+  }
+
+  .sub-title {
+    font-size: 4.5rem;
   }
 }
 
@@ -165,8 +175,13 @@
   width: 80%;
 }
 
+.work .paragraph {
+  padding-right: 0.5rem;
+}
+
 .work .paragraph strong {
   color: #e792b0;
+  font-family: 'NunitoSans ExtraBold';
 }
 
 @media screen and (min-width: 768px) {
@@ -216,6 +231,7 @@
   font-size: 1.1rem;
   font-family: 'NunitoSans Regular';
   font-weight: 600;
+  margin-bottom: 1rem;
 }
 
 .data-cards .card:nth-child(1),
@@ -269,7 +285,11 @@
 }
 
 .enterprise-content-text {
-  padding: 2rem;
+  padding: 3rem 2rem 2rem 2rem;
+}
+
+.enterprise-content-text div:nth-child(2) h2 {
+  margin-top: 2.5rem;
 }
 
 .enterprise-content-image {
@@ -277,6 +297,7 @@
 }
 
 .enterprise-content-image img {
+  object-fit: cover;
   width: 100%;
 }
 
@@ -303,7 +324,7 @@
 
 @media screen and (min-width: 1280px) {
   .enterprise {
-    height: 700px;
+    height: 680px;
   }
 }
 
@@ -311,7 +332,7 @@
 
 /* TEAM START */
 .team {
-  background: #ffd5e4;
+  background: #fde7ef;
 }
 
 .team .container {
@@ -319,6 +340,10 @@
 
   display: grid;
   gap: 2rem;
+}
+
+.team h2 {
+  margin-bottom: 1rem;
 }
 
 .team-content-image {
@@ -347,7 +372,7 @@
 
 /* TEAM CARDS START */
 .team-cards .container {
-  padding: 4rem 2rem;
+  padding: 4rem 2rem 6rem 2rem;
 
   display: grid;
   gap: 2rem;
@@ -374,6 +399,7 @@
 }
 
 .team-card-image img {
+  object-fit: cover;
   width: 200px;
   height: 200px;
 
@@ -383,8 +409,9 @@
 .team-card h4 {
   margin-top: 0.5rem;
   color: #870045;
+  line-height: 1.2rem;
 
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-family: 'NunitoSans Black';
 }
 
@@ -456,4 +483,9 @@
   .team-cards .container {
     grid-template-columns: auto auto auto;
   }
+}
+
+.pink-container {
+  background: #e792b0;
+  height: 35px;
 }

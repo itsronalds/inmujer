@@ -7,8 +7,7 @@
 /* GLOBAL CLASSES START */
 .container {
   margin: 0 auto;
-  /* max-width: 1280px; */
-  max-width: 1380px;
+  max-width: 1280px;
 }
 
 .layout {
@@ -62,7 +61,7 @@
 
 .paragraph {
   margin-top: 1.5rem;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 
   color: #070707;
   font-family: 'NunitoSans Regular';
@@ -82,7 +81,7 @@
 @media screen and (min-width: 768px) {
   .sub-title {
     text-align: start;
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 
   .sub-title .down {
@@ -94,7 +93,7 @@
   }
 
   .paragraph {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .btn {
@@ -111,7 +110,7 @@
 }
 
 .main .container {
-  padding: 2rem;
+  padding: 1rem;
   min-height: calc(100vh - 4.5rem);
 
   display: flex;
@@ -227,7 +226,7 @@
     position: absolute;
     right: 7rem;
     bottom: -75px;
-    z-index: 1000;
+    z-index: 900;
   }
 
   .main-image-figure img {
@@ -347,8 +346,14 @@
 
   .big-card-image {
     display: flex;
-    height: 600px;
+    height: 500px;
   }
+
+  /* .container {
+    background-color: #e9c33a;
+    display: flex;
+    justify-content: center;
+  } */
 }
 
 /* BIG CARD END */
@@ -438,8 +443,18 @@
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bolder;
+}
+
+.swiper-button-next::after {
+  margin-left: 1.5rem;
+  margin-top: -3rem;
+}
+
+.swiper-button-prev::after {
+  margin-right: 1.5rem;
+  margin-top: -3rem;
 }
 
 /* SLIDER CARDS END */
@@ -489,17 +504,17 @@
 
   .values-content {
     margin-top: 0;
-    padding-top: 3rem;
+    padding-top: 1rem;
     text-align: start;
 
     grid-template-columns: repeat(1, auto);
-    grid-template-rows: repeat(4, 50px);
+    grid-template-rows: repeat(4, 60px);
     justify-content: flex-start;
     align-items: center;
   }
 
   .values-content h3 {
-    font-size: 2.6rem;
+    font-size: 4rem;
     margin-left: 5rem;
   }
 

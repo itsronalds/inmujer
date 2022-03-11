@@ -52,7 +52,7 @@
 
 .main h1 {
   margin-bottom: 1.5rem;
-  letter-spacing: 1rem;
+  letter-spacing: 0.7rem;
   text-transform: lowercase;
 
   color: #fff;
@@ -63,7 +63,7 @@
 
 .main p {
   margin-bottom: 1.5rem;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
 
   color: #fff;
@@ -134,7 +134,7 @@
   }
 
   .main h1 {
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     font-size: 7rem;
   }
 
@@ -284,9 +284,9 @@
   padding: 2rem;
 }
 
-.about .about-content-image {
-  text-align: center;
-}
+/* .about .about-content-image {
+  background-color: #8a0045;
+} */
 
 .about img {
   /* max-height: 200px; */
@@ -310,7 +310,7 @@
 .about-content-text p {
   margin-top: 2rem;
 
-  line-height: 1.5rem;
+  line-height: 1.7rem;
 
   color: #070707;
   font-family: 'NunitoSans Regular';
@@ -349,8 +349,8 @@
 
   .about h2 span span {
     display: inline-block;
-    width: 0.8rem;
-    height: 0.8rem;
+    width: 1rem;
+    height: 1rem;
     border-radius: 50%;
     background: #e792b0;
   }
@@ -362,11 +362,11 @@
   }
 
   .about h2 {
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 
   .about p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -374,7 +374,7 @@
 
 /* NEWS - START */
 .news {
-  background-color: #ffd5e4;
+  background: #fde7ef;
 }
 
 .news .container {
@@ -394,8 +394,8 @@
 
 .news h2 span {
   display: inline-block;
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
   background: #e792b0;
 }
@@ -526,7 +526,7 @@
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bolder;
 }
 
@@ -539,7 +539,7 @@
 
 @media screen and (min-width: 768px) {
   .news h2 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: start;
   }
 }
@@ -581,14 +581,14 @@
 
 .communique-content-text p {
   margin-top: 1rem;
-  line-height: 2.3rem;
+  line-height: 2.6rem;
 }
 
 .communique-content-text p span {
   display: block;
 
   color: #fff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
@@ -777,7 +777,7 @@
 
 @media screen and (min-width: 760px) {
   .activities h2 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     text-align: start;
   }
 
@@ -795,6 +795,11 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .activities h2 span {
+    width: 1rem;
+    height: 1rem;
+  }
+
   .activities-cards {
     justify-content: space-between;
   }
@@ -823,6 +828,16 @@
 
 /* BIRTH START */
 .birth h2 {
+  text-transform: lowercase;
+
+  color: #890045;
+  font-family: 'DMSerifDisplay Regular';
+  font-size: 2.5rem;
+
+  text-align: center;
+}
+
+.birth h2 span {
   display: inline-block;
   width: 0.8rem;
   height: 0.8rem;
@@ -831,7 +846,7 @@
 }
 
 .birth-content-text {
-  background-color: #ffd5e4;
+  background: #fde7ef;
   height: 500px;
   padding: 2rem;
 
@@ -882,7 +897,7 @@
 }
 
 .birth-btn {
-  margin-top: 4rem;
+  margin-top: 3rem;
   text-align: center;
 }
 
@@ -919,7 +934,7 @@
 
 @media screen and (min-width: 760px) {
   .birth {
-    height: 500px;
+    height: 600px;
     display: flex;
   }
 
@@ -939,6 +954,15 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .birth h2 {
+    font-size: 4.5rem;
+  }
+
+  .birth h2 span {
+    width: 1rem;
+    height: 1rem;
+  }
+
   .birth-content-text p span:nth-child(1),
   .birth-content-text p span:nth-child(2) {
     font-size: 5rem;

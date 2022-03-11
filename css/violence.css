@@ -7,8 +7,7 @@
 /* GLOBAL CLASSES START */
 .container {
   margin: 0 auto;
-  /* max-width: 1280px; */
-  max-width: 1380px;
+  max-width: 1280px;
 }
 
 .layout {
@@ -62,8 +61,8 @@
 }
 
 .paragraph {
-  margin-top: 1.5rem;
-  line-height: 1.5rem;
+  margin-top: 1rem;
+  line-height: 1.7rem;
 
   color: #070707;
   font-family: 'NunitoSans Regular';
@@ -72,12 +71,13 @@
 
 .strong-pink {
   color: #e792b0;
+  font-family: 'NunitoSans ExtraBold';
 }
 
 @media screen and (min-width: 768px) {
   .sub-title {
     text-align: start;
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 
   .sub-title .down {
@@ -89,7 +89,7 @@
   }
 
   .paragraph {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .btn {
@@ -142,6 +142,7 @@
   margin: 0.5rem 0;
   letter-spacing: 0.1rem;
   text-transform: lowercase;
+  line-height: 100%;
 
   color: #fff;
   font-size: 1.4rem;
@@ -263,7 +264,7 @@
   }
 
   .record p {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -334,6 +335,10 @@
   .violence-background-text-image img {
     max-height: 150px;
   }
+
+  .violence-background-text .container div:nth-child(2) p {
+    padding-right: 0.3rem;
+  }
 }
 
 /* VIOLENCE BG TEXT END */
@@ -353,7 +358,7 @@
 
 @media screen and (min-width: 1024px) {
   .prevention .container {
-    padding: 4rem 2rem 20rem 2rem;
+    padding: 4rem 2rem 8rem 2rem;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -368,12 +373,15 @@
   .prevention-image img {
     max-height: 250px;
   }
+
+  .prevention p {
+    padding-right: 0.8rem;
+  }
 }
 
 /* PREVENTION END */
 
 /* COMPLAINT */
-
 .complaint {
   padding-bottom: 4rem;
 }
@@ -397,7 +405,7 @@
 }
 
 .complaint-content-btn {
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
 
   display: flex;
   justify-content: center;

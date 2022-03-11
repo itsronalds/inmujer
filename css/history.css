@@ -66,8 +66,8 @@
 }
 
 .paragraph {
-  margin-top: 1.5rem;
-  line-height: 1.5rem;
+  margin-top: 1rem;
+  line-height: 1.7rem;
 
   color: #070707;
   font-family: 'NunitoSans Regular';
@@ -83,7 +83,7 @@
 @media screen and (min-width: 768px) {
   .sub-title {
     text-align: start;
-    font-size: 4rem;
+    font-size: 4.5rem;
   }
 
   .sub-title .down {
@@ -91,11 +91,11 @@
   }
 
   .sub-title .endpoint {
-    font-size: 4rem;
+    font-size: 4.8rem;
   }
 
   .paragraph {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .btn {
@@ -177,8 +177,9 @@
   }
 
   .main-bg h1 {
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.3rem;
     font-size: 4rem;
+    line-height: 100%;
   }
 
   .main-bg p {
@@ -227,6 +228,7 @@
 
 .history strong {
   color: #e792b0;
+  font-family: 'NunitoSans ExtraBold';
 }
 
 @media screen and (min-width: 768px) {
@@ -300,7 +302,7 @@
 /* LAW START */
 .law-content-text {
   background: #fde7ef;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4rem 2rem 4rem 2rem;
 }
 
 .law-content-text p {
@@ -309,6 +311,7 @@
 
 .law-content-text strong {
   color: #e792b0;
+  font-family: 'NunitoSans ExtraBold';
 }
 
 .law-content-image-container {
@@ -391,6 +394,12 @@
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .law-content-text .paragraph {
+    padding-right: 1.1rem;
+  }
+}
+
 @media screen and (min-width: 1400px) {
   .law-content-text .paragraph {
     padding-left: 19%;
@@ -443,7 +452,7 @@
 }
 
 .equality-sello img {
-  max-height: 120px;
+  max-height: 140px;
 }
 
 .equality-tag {
@@ -496,7 +505,7 @@
     top: 1.5rem;
     left: 0;
 
-    z-index: 1000;
+    z-index: 500;
 
     color: #870045;
 
@@ -504,6 +513,10 @@
     font-family: 'DMSerifDisplay Regular';
 
     text-align: end;
+  }
+
+  .equality-content-text p {
+    margin-bottom: 1rem;
   }
 }
 
@@ -530,6 +543,7 @@
 
 .planning strong {
   color: #e792b0;
+  font-family: 'NunitoSans ExtraBold';
 }
 
 .planning-figures {
@@ -546,7 +560,7 @@
 
 @media screen and (min-width: 1024px) {
   .planning p {
-    padding-right: 1rem;
+    padding-right: 2.5rem;
   }
 
   .planning-figures {
