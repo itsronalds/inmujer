@@ -111,7 +111,7 @@
 
       <!-- BIG CARD -->
       <div class="big-card-container">
-        <!-- FAKE -->
+        <!-- MOBILE SLIDER -->
         <div class="container mobile">
           <div class="swiper mySwiper_2" style="border-radius: 120px 0 0 0; max-width: 400px">
             <div class="swiper-wrapper">
@@ -222,10 +222,12 @@
               </div>
             </div>
           </div>
+          <div class="swiper-pagination" style="margin-bottom: -1.5rem"></div>
           <!-- <div class="swiper-button-next swiper-button-next-2"></div>
           <div class="swiper-button-prev swiper-button-prev-2"></div> -->
         </div>
 
+        <!-- DESKTOP SLIDER -->
         <div class="container no-mobile">
           <!-- CARD 1 -->
           <div class="big-card number-1 big-card-active">
@@ -478,6 +480,10 @@
         navigation: {
           nextEl: '.swiper-button-next-2',
           prevEl: '.swiper-button-prev-2',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
         },
       });
     </script>

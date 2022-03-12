@@ -284,9 +284,11 @@
   padding: 2rem;
 }
 
-/* .about .about-content-image {
-  background-color: #8a0045;
-} */
+.about .about-content-image {
+  /* background-color: #8a0045; */
+  display: flex;
+  justify-content: center;
+}
 
 .about img {
   /* max-height: 200px; */
@@ -315,6 +317,15 @@
   color: #070707;
   font-family: 'NunitoSans Regular';
   font-size: 1rem;
+}
+
+.about h2 span span {
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin-left: 0.3rem;
+  border-radius: 50%;
+  background: #e792b0;
 }
 
 @media screen and (min-width: 640px) {
@@ -348,11 +359,8 @@
   }
 
   .about h2 span span {
-    display: inline-block;
     width: 1rem;
     height: 1rem;
-    border-radius: 50%;
-    background: #e792b0;
   }
 }
 
@@ -394,8 +402,8 @@
 
 .news h2 span {
   display: inline-block;
-  width: 1rem;
-  height: 1rem;
+  width: 0.7rem;
+  height: 0.7rem;
   border-radius: 50%;
   background: #e792b0;
 }
@@ -528,12 +536,19 @@
 .swiper-button-prev::after {
   font-size: 1.8rem;
   font-weight: bolder;
+  position: absolute;
+  bottom: -3rem;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 650px) {
   .swiper-button-next,
   .swiper-button-prev {
     display: block;
+  }
+
+  .news h2 span {
+    width: 1rem;
+    height: 1rem;
   }
 }
 
@@ -576,19 +591,20 @@
 }
 
 .communique-content-text-image img {
-  max-height: 50px;
+  /* max-height: 50px; */
+  max-height: 35px;
 }
 
 .communique-content-text p {
   margin-top: 1rem;
-  line-height: 2.6rem;
+  line-height: 2rem;
 }
 
 .communique-content-text p span {
   display: block;
 
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
@@ -616,6 +632,14 @@
   .communique-content-text {
     width: 50%;
     height: auto;
+  }
+
+  .communique-content-text p {
+    line-height: 2.6rem;
+  }
+
+  .communique-content-text p span {
+    font-size: 2.5rem;
   }
 
   .communique-aligned-container {
@@ -664,8 +688,8 @@
 
 .activities h2 span {
   display: inline-block;
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 0.7rem;
+  height: 0.7rem;
   border-radius: 50%;
   background: #e792b0;
 }
@@ -781,6 +805,11 @@
     text-align: start;
   }
 
+  .activities h2 span {
+    width: 1rem;
+    height: 1rem;
+  }
+
   .activities-cards {
     margin-top: 1.5rem;
 
@@ -795,11 +824,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .activities h2 span {
-    width: 1rem;
-    height: 1rem;
-  }
-
   .activities-cards {
     justify-content: space-between;
   }
@@ -827,7 +851,7 @@
 /* ACTIVITIES END */
 
 /* BIRTH START */
-.birth h2 {
+/* .birth h2 {
   text-transform: lowercase;
 
   color: #890045;
@@ -835,12 +859,12 @@
   font-size: 2.5rem;
 
   text-align: center;
-}
+} */
 
 .birth h2 span {
   display: inline-block;
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 0.7rem;
+  height: 0.7rem;
   border-radius: 50%;
   background: #e792b0;
 }
@@ -863,9 +887,9 @@
   max-height: 200px;
 }
 
-.birth-content-text p {
+/* .birth-content-text p {
   line-height: 3rem;
-}
+} */
 
 .birth-content-text p span:nth-child(1),
 .birth-content-text p span:nth-child(2) {
@@ -874,6 +898,7 @@
 
   font-family: 'DMSerifDisplay Regular';
   font-size: 2.4rem;
+  font-weight: bold;
 
   color: #850045;
 }
@@ -933,6 +958,16 @@
 }
 
 @media screen and (min-width: 760px) {
+  .birth-content-text p span:nth-child(1),
+  .birth-content-text p span:nth-child(2) {
+    font-size: 4.5rem;
+  }
+
+  .birth-content-text p span:nth-child(2) span {
+    width: 1rem;
+    height: 1rem;
+  }
+
   .birth {
     height: 600px;
     display: flex;
@@ -954,23 +989,9 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .birth h2 {
-    font-size: 4.5rem;
-  }
-
-  .birth h2 span {
-    width: 1rem;
-    height: 1rem;
-  }
-
-  .birth-content-text p span:nth-child(1),
-  .birth-content-text p span:nth-child(2) {
-    font-size: 5rem;
-  }
-
-  .birth-content-text p {
+  /* .birth-content-text p {
     line-height: 4rem;
-  }
+  } */
 
   .birth-btn a {
     font-size: 1rem;

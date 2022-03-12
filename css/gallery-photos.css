@@ -289,6 +289,10 @@
   display: none;
 }
 
+.big-card-container {
+  padding-bottom: 3rem;
+}
+
 .big-card-container .container {
   position: relative;
   padding: 2rem;
@@ -320,7 +324,7 @@
 }
 
 .big-card-content {
-  padding: 3rem;
+  padding: 2rem 3rem;
 }
 
 .big-card-content hr {
@@ -336,24 +340,28 @@
 }
 
 @media screen and (min-width: 768px) {
+  .big-card-container {
+    padding-bottom: 0;
+  }
+
   .mobile {
     display: none;
   }
 
   .no-mobile {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .big-card {
+    width: 400px;
   }
 
   .big-card-image {
     display: flex;
-    height: 500px;
+    height: 250px;
   }
-
-  /* .container {
-    background-color: #e9c33a;
-    display: flex;
-    justify-content: center;
-  } */
 }
 
 /* BIG CARD END */
@@ -365,13 +373,13 @@
 
 .cards .container {
   position: relative;
-  padding: 2rem 2rem 5rem 2rem;
+  padding: 0 2rem 5rem 2rem;
 }
 
 .card {
-  width: 300px;
-  height: 300px;
-  margin: 3rem;
+  width: 250px;
+  height: 230px;
+  margin: 2rem;
 
   display: flex;
   cursor: pointer;
@@ -382,6 +390,7 @@
 .card img {
   object-fit: cover;
   width: 100%;
+  border-radius: 3px;
 }
 
 @media screen and (min-width: 768px) {
