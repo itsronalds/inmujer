@@ -281,17 +281,51 @@
 /* DATA CARD END */
 
 /* ENTERPRISE START */
-.enterprise {
-  position: relative;
+
+.enterprise .container {
+  padding: 2rem;
 }
 
-.enterprise-content-text {
-  padding: 3rem 2rem 2rem 2rem;
+.enterprise-content-image {
+  display: flex;
+}
+
+.enterprise-content-image img {
+  object-fit: cover;
+  width: 100%;
 }
 
 .enterprise-content-text div:nth-child(2) h2 {
   margin-top: 2.5rem;
 }
+
+@media screen and (min-width: 768px) {
+  .enterprise {
+    position: relative;
+  }
+
+  .enterprise-content-text {
+    width: 50%;
+  }
+
+  .enterprise-content-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+
+    width: 50%;
+  }
+
+  .enterprise-content-text {
+    padding: 3rem 2rem 2rem 2rem;
+  }
+}
+
+/* .enterprise {
+  position: relative;
+}
+
 
 .enterprise-content-image {
   display: flex;
@@ -315,19 +349,19 @@
   .enterprise-content-text {
     padding-left: 6%;
   }
-}
+} */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1280px) {
   .enterprise-content-text {
     padding-left: 12%;
   }
-}
+} */
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .enterprise {
     height: 680px;
   }
-}
+} */
 
 /* ENTERPRISE END */
 
