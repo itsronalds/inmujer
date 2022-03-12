@@ -304,6 +304,10 @@
     position: relative;
   }
 
+  .enterprise .container {
+    padding: 0;
+  }
+
   .enterprise-content-text {
     width: 50%;
   }
