@@ -263,7 +263,7 @@
 
   .assistance p {
     margin-bottom: 1.5rem;
-    line-height: 35px;
+    /* line-height: 35px; */
   }
 }
 
@@ -419,7 +419,7 @@
 .target p {
   color: #fff;
   font-family: 'NunitoSans ExtraBold';
-  line-height: 35px;
+  /* line-height: 35px; */
 }
 
 @media screen and (min-width: 468px) {
