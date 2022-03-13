@@ -208,6 +208,9 @@
 /* END MAIN */
 
 /* RECORD START */
+/* .record {
+  background: rebeccapurple;
+} */
 
 .record-figure {
   display: none;
@@ -231,12 +234,18 @@
   }
 
   .record .container {
+    /* background-color: red; */
+    position: relative;
+    width: 100%;
+
     padding: 0 2rem;
+    height: 90px;
   }
 
   .record .record-content {
-    position: relative;
+    position: absolute;
     top: -75px;
+
     max-width: 1280px;
     max-height: 150px;
     border-radius: 20px 20px 20px 20px;
@@ -249,6 +258,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .record .container {
+    height: 130px;
+  }
+
   .record-figure {
     display: block;
 
@@ -277,9 +290,19 @@
   }
 }
 
+/* @media screen and (min-width: 1248px) {
+  .record .container {
+    height: 80px;
+  }
+} */
+
 /* RECORD END */
 
 /* VIOLENCE */
+/* .violence {
+  background: #e9c33a;
+} */
+
 .violence .container {
   padding: 2rem 2rem 5rem 2rem;
 }

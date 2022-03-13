@@ -565,7 +565,7 @@
 .communique {
   position: relative;
 
-  background-color: #f3f3f3;
+  background-color: #f4f4f4;
 }
 
 .communique-figure {
@@ -577,6 +577,7 @@
 }
 
 .communique-content-image img {
+  object-fit: cover;
   width: 100%;
 }
 

@@ -128,11 +128,13 @@
 }
 
 .main-grid div:nth-child(1) h2:nth-child(1) {
-  margin-bottom: -1.5rem;
+  /* margin-bottom: -1.5rem; */
+  margin-bottom: -0rem;
 }
 
 .main-grid div:nth-child(2) h2:nth-child(1) {
-  margin-bottom: -1.5rem;
+  /* margin-bottom: -1.5rem; */
+  margin-bottom: -0rem;
 }
 
 .main-grid div:nth-child(2) {
@@ -165,6 +167,14 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .main-grid div:nth-child(1) h2:nth-child(1) {
+    margin-bottom: -1.5rem;
+  }
+
+  .main-grid div:nth-child(2) h2:nth-child(1) {
+    margin-bottom: -1.5rem;
+  }
+
   .main-bg h2 {
     font-size: 4rem;
   }
@@ -221,7 +231,8 @@
 .assistance {
   position: relative;
 
-  background: #8a0045;
+  /* background: #8a0045; */
+  background: #fde7ef;
   border-radius: 0 120px 0 0;
   text-align: center;
 }
@@ -231,7 +242,7 @@
 }
 
 .assistance p {
-  color: #fff;
+  color: #e792b0;
   font-family: 'NunitoSans ExtraBold';
 }
 
@@ -408,6 +419,7 @@
 .target p {
   color: #fff;
   font-family: 'NunitoSans ExtraBold';
+  line-height: 35px;
 }
 
 @media screen and (min-width: 468px) {
