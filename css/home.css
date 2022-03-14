@@ -328,7 +328,7 @@
 
   .main .main-background-image {
     position: absolute;
-    top: calc(50% - 40px);
+    top: calc(50% - 120px);
     /* left: calc(50% - 665px); */
 
     display: block;
