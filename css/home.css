@@ -114,9 +114,13 @@
   max-width: 265px;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (min-width: 640px) {
   .main h1 {
     font-size: 4.5rem;
+  }
+
+  .main .container {
+    height: calc(100vh - 20px);
   }
 
   .main-content-text-container div {
@@ -124,7 +128,7 @@
   }
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 765px) {
   .main {
     position: relative;
     overflow: hidden;
@@ -157,22 +161,18 @@
 
   .main-content-text-container {
     padding-left: 0;
+    width: 250px;
   }
 
   .main h1 {
     letter-spacing: 0.4rem;
-    font-size: 5rem;
+    font-size: 4.2rem;
   }
 
   .main p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
-  .main p span:first-child {
-    white-space: nowrap;
-  }
-
-  /* ---------------------------------------------------- */
   .main .main-content-images {
     position: absolute;
     top: 3rem;
@@ -302,8 +302,185 @@
 
     border-radius: 20px 20px 20px 100px;
   }
+}
 
-  /* --------------------------------------------------------------------- */
+@media screen and (min-width: 840px) {
+  /* .main {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .main .main-background-image {
+    position: absolute;
+    top: calc(50% - 80px);
+
+    display: block;
+    pointer-events: none;
+  }
+
+  .main .main-background-image img {
+    max-height: 270px;
+  } */
+
+  /* .main .container {
+    height: 696px;
+  } */
+
+  /* .main .main-content-text {
+    width: 60%;
+    padding-top: 8rem;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+  } */
+
+  /* .main-content-text-container {
+    padding-left: 0;
+  } */
+
+  .main h1 {
+    /* letter-spacing: 0.4rem; */
+    font-size: 5rem;
+  }
+
+  .main p {
+    font-size: 1.1rem;
+  }
+
+  .main p span:first-child {
+    white-space: nowrap;
+  }
+  /* 
+  .main .main-content-images {
+    position: absolute;
+    top: 3rem;
+    right: 0;
+
+    display: flex;
+    justify-content: flex-end;
+
+    width: 40%;
+  } */
+
+  /* .main .images-container {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: flex-end;
+  } */
+
+  /* .image-figure-1,
+  .image-figure-2 {
+    position: absolute;
+  }
+
+  .image-figure-1 {
+    top: calc(50% - 100px);
+    left: -50px;
+  }
+
+  .image-figure-2 {
+    bottom: -3.2rem;
+    right: 100px;
+  }
+
+  .image-figure-1 img {
+    max-height: 130px;
+  }
+
+  .image-figure-2 img {
+    max-height: 70px;
+  }
+
+  .main .image-1 {
+    height: 150px;
+    background-image: url('../assets/images/home/img-1.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 20px 20px 100px 20px;
+  }
+
+  .main .image-2 {
+    height: 150px;
+
+    background-image: url('../assets/images/home/img-2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 50%;
+  }
+
+  .main .image-3 {
+    height: 150px;
+    background: #e792b0;
+
+    border-radius: 100px 20px 20px 20px;
+  }
+
+  .main .image-4 {
+    height: 300px;
+
+    background-color: #e9c33a;
+    border-radius: 20px 100px 100px 100px;
+
+    grid-row: 2 / span 2;
+  }
+
+  .main .image-5 {
+    height: 150px;
+
+    background-color: #e9c33a;
+    border-radius: 100px 100px 100px 20px;
+
+    grid-column: 2 / span 2;
+  }
+
+  .main .image-6 {
+    background-image: url('../assets/images/home/img-3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 150px;
+    border-radius: 20px 100px 20px 20px;
+  }
+
+  .main .image-7 {
+    height: 300px;
+
+    background-image: url('../assets/images/home/img-4.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    grid-column: 3;
+    grid-row: 3 / span 2;
+
+    border-radius: 100px 100px 20px 100px;
+  }
+
+  .main .image-8 {
+    height: 150px;
+
+    background-image: url('../assets/images/home/img-5.jpeg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 50%;
+  }
+
+  .image-9 {
+    background: #e792b0;
+    height: 150px;
+
+    border-radius: 20px 20px 20px 100px;
+  } */
 }
 
 @media screen and (min-width: 1024px) {
