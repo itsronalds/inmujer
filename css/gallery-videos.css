@@ -121,9 +121,9 @@
   justify-content: center;
 }
 
-.main-content {
+/* .main-content {
   text-align: center;
-}
+} */
 
 .main-content-image {
   margin-bottom: 1rem;
@@ -141,20 +141,19 @@
 }
 
 .main h1 {
-  margin: 1rem 0 1.5rem 0;
-  line-height: 40px;
+  margin: 1rem 0 0rem 0;
+  line-height: 120%;
   letter-spacing: 0.3rem;
   text-transform: lowercase;
 
   color: #fff;
-  /* font-size: 3rem; */
   font-size: 2rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
 .main p {
   color: #fff;
-  /* padding: 0 1rem; */
+  padding: 0 2rem;
   font-size: 0.8rem;
 }
 
@@ -348,6 +347,15 @@
   color: #fff;
 }
 
+.activities-texts {
+  display: flex;
+  justify-content: center;
+}
+
+.activities h2 {
+  text-align: left;
+}
+
 @media screen and (min-width: 468px) {
   .activities h3 {
     font-size: 1rem;
@@ -355,6 +363,12 @@
 
   .activities .activities-card a {
     padding: 0.4rem 1rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .activities-texts {
+    justify-content: flex-start;
   }
 }
 
