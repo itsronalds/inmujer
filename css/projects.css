@@ -199,6 +199,24 @@
   max-height: 130px;
 }
 
+.birth h2 {
+  text-align: left;
+}
+
+.birth-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 640px) {
+  .birth-content {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 765px) {
   .birth .container {
     padding: 2rem 2rem 4rem 2rem;
@@ -233,12 +251,13 @@
 
   /* background: #8a0045; */
   background: #fde7ef;
-  border-radius: 0 120px 0 0;
-  text-align: center;
+  /* border-radius: 0 120px 0 0; */
+  /* text-align: center; */
 }
 
 .assistance .container {
-  padding: 4rem 1rem;
+  /* padding: 4rem 1rem; */
+  padding: 2rem;
 }
 
 .assistance p {
@@ -251,6 +270,10 @@
 }
 
 @media screen and (min-width: 640px) {
+  .assistance {
+    border-radius: 0 120px 0 0;
+  }
+
   .assistance .container {
     padding: 4rem;
   }
@@ -344,6 +367,24 @@
   width: 100%;
 }
 
+.promoters-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promoters-content h2 {
+  text-align: left;
+}
+
+@media screen and (min-width: 640px) {
+  .promoters-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .promoters {
     display: grid;
@@ -378,6 +419,22 @@
   max-height: 150px;
 }
 
+.gestation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gestation-content h2 {
+  text-align: left;
+}
+
+@media screen and (min-width: 640px) {
+  .gestation-content {
+    align-items: flex-start;
+  }
+}
+
 @media screen and (min-width: 765px) {
   .gestation .container {
     padding: 2rem 2rem 4rem 2rem;
@@ -409,11 +466,11 @@
 /* TARGET START */
 .target {
   background: #e792b0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .target .container {
-  padding: 2rem 1rem 3rem 1rem;
+  padding: 2rem;
 }
 
 .target p {

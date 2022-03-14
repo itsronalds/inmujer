@@ -141,9 +141,10 @@
 }
 
 .main-bg h1 {
-  margin-bottom: 1.5rem;
-  letter-spacing: 0.3rem;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.2rem;
   text-transform: lowercase;
+  line-height: 120%;
 
   color: #fff;
   font-size: 1.3rem;
@@ -232,6 +233,16 @@
   font-family: 'NunitoSans ExtraBold';
 }
 
+.history p span {
+  display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .history p span {
+    display: inline;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .history-content-text {
     display: grid;
@@ -254,10 +265,8 @@
 
 /* HISTORY BG START */
 .history-bg {
-  background-color: #e9c33a;
-
   position: relative;
-  display: flex;
+  display: none;
 }
 
 .history-bg img {
@@ -268,6 +277,12 @@
 .history-bg-figure-1,
 .history-bg-figure-2 {
   display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .history-bg {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -421,7 +436,7 @@
 
 .equality-content-image-container {
   position: relative;
-  padding: 3rem 3rem 6rem 3rem;
+  padding: 3rem 3rem 3rem 3rem;
 
   display: flex;
   justify-content: center;
@@ -448,16 +463,26 @@
 
 .equality-sello {
   position: absolute;
-  bottom: -60px;
+  bottom: -40px;
   right: -2rem;
 }
 
 .equality-sello img {
-  max-height: 140px;
+  max-height: 100px;
 }
 
 .equality-tag {
   display: none;
+}
+
+@media screen and (min-width: 640px) {
+  .equality-sello img {
+    max-height: 140px;
+  }
+
+  .equality-content-image-container {
+    padding: 3rem 3rem 6rem 3rem;
+  }
 }
 
 @media screen and (min-width: 765px) {
@@ -539,7 +564,7 @@
 }
 
 .planning .container {
-  padding: 2rem 2rem 4rem 2rem;
+  padding: 0 2rem 4rem 2rem;
 }
 
 .planning strong {
@@ -551,11 +576,21 @@
   display: none;
 }
 
+.planning p span {
+  display: none;
+}
+
 @media screen and (min-width: 640px) {
   .planning .container {
+    padding: 2rem 2rem 4rem 2rem;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
+  }
+
+  .planning p span {
+    display: block;
   }
 }
 

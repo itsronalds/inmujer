@@ -10,7 +10,7 @@
 
 .footer .logo {
   object-fit: cover;
-  max-height: 3rem;
+  max-height: 2.5rem;
 }
 
 .footer-content {
@@ -64,6 +64,12 @@
 .footer-derechos {
   margin-top: 3rem;
   text-align: start;
+}
+
+@media screen and (min-width: 640px) {
+  .footer .logo {
+    max-height: 3rem;
+  }
 }
 
 @media screen and (min-width: 768px) {

@@ -118,9 +118,9 @@
   justify-content: center;
 }
 
-.main-content {
+/* .main-content {
   text-align: center;
-}
+} */
 
 .main-content-image {
   margin-bottom: 1rem;
@@ -138,19 +138,20 @@
 }
 
 .main h1 {
-  margin: 1rem 0 1.5rem 0;
-  line-height: 40px;
+  margin: 1rem 0 0rem 0;
+  line-height: 120%;
   letter-spacing: 0.3rem;
   text-transform: lowercase;
 
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
 .main p {
   color: #fff;
   font-size: 0.8rem;
+  padding: 0 2rem;
 }
 
 .main-image,
@@ -302,6 +303,7 @@
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 120px 30px 30px 30px;
   width: 100%;
+  min-height: 464px;
 
   transition: all 0.3s ease-in-out;
 }
@@ -324,7 +326,7 @@
 }
 
 .big-card-content {
-  padding: 2rem 3rem;
+  padding: 1.5rem;
 }
 
 .big-card-content hr {
@@ -333,6 +335,7 @@
 
 .big-card-date {
   font-family: 'NunitoSans Regular';
+  margin: 0.5rem 0;
 }
 
 .big-card-place {
@@ -355,12 +358,12 @@
   }
 
   .big-card {
-    width: 400px;
+    width: 600px;
   }
 
   .big-card-image {
     display: flex;
-    height: 250px;
+    height: 400px;
   }
 }
 
