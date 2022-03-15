@@ -29,10 +29,24 @@
 /* MAIN - START */
 .main {
   background: #8a0045;
+  position: relative;
+  overflow: hidden;
 }
 
-.main .main-background-image {
+/* .main .main-background-image {
   display: none;
+} */
+
+.main .main-background-image {
+  position: absolute;
+  top: calc(50% - 20px);
+  right: calc(50% - 300px);
+  display: block;
+  pointer-events: none;
+}
+
+.main .main-background-image img {
+  max-height: 150px;
 }
 
 .main .container {
@@ -58,7 +72,7 @@
   color: #fff;
   /* font-size: 4rem; */
   /* font-size: 2.5rem; */
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-family: 'DMSerifDisplay Regular';
 }
 
@@ -115,6 +129,15 @@
 }
 
 @media screen and (min-width: 640px) {
+  .main .main-background-image {
+    top: calc(50% - 0px);
+    right: calc(50% - 400px);
+  }
+
+  .main .main-background-image img {
+    max-height: 200px;
+  }
+
   .main h1 {
     font-size: 4.5rem;
   }
@@ -129,17 +152,13 @@
 }
 
 @media screen and (min-width: 765px) {
-  .main {
+  /* .main {
     position: relative;
     overflow: hidden;
-  }
+  } */
 
   .main .main-background-image {
-    position: absolute;
-    top: calc(50% - 80px);
-
-    display: block;
-    pointer-events: none;
+    right: auto;
   }
 
   .main .main-background-image img {
