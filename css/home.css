@@ -39,7 +39,7 @@
 
 .main .main-background-image {
   position: absolute;
-  top: calc(50% - 20px);
+  top: calc(50% - 80px);
   right: calc(50% - 300px);
   display: block;
   pointer-events: none;
@@ -56,9 +56,10 @@
 
 .main .main-content-text {
   /* background-color: rebeccapurple; */
+  padding-top: 5rem;
 
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-direction: column;
 
@@ -176,7 +177,7 @@
 
 @media screen and (min-width: 640px) {
   .main .main-background-image {
-    top: calc(50% - 0px);
+    top: calc(50% - 100px);
     right: calc(50% - 400px);
   }
 
