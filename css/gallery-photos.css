@@ -420,6 +420,7 @@
   /* font-size: 18px; */
   /* background: #fff; */
   /* flex: 1; */
+  background: none;
 
   /* Center slide text vertically */
   display: -webkit-box;
