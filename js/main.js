@@ -27,6 +27,11 @@ function selectedCard(number) {
     return;
   }
 
+  scrollTo({
+    top: document.body.offsetHeight / 3.5,
+    behavior: 'smooth',
+  });
+
   // Disable prev active card
   document.querySelector('.card-active').classList.remove('card-active');
 
